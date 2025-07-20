@@ -93,6 +93,16 @@
 			</ref>
             		
         </config>
+        		
+        <config default="false" name="Config6_3" category="opl">
+            			
+            <ref name="heuristic2_3.mod" type="model">
+			</ref>
+            			
+            <ref name="circle_coverage.dat" type="data">
+			</ref>
+            		
+        </config>
         	
     </configs>
     	
