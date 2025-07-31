@@ -1,7 +1,7 @@
 /*********************************************
  * OPL 22.1.1.0 Model
- * Author: rocha
- * Creation Date: 24 de jun de 2025 at 17:56:38
+ * Author: paggo
+ * Creation Date: 22 de jul de 2025 at 18:33:55
  *********************************************/
 
 using CP;
@@ -24,7 +24,11 @@ int circulosUsados = 0;
 int centrosHeuristicoX[1..n*minCoverage];  // Array para posições X encontradas pela heurística
 int centrosHeuristicoY[1..n*minCoverage];  // Array para posições Y encontradas pela heurística
 
-// Heurística gulosa inspirada no código Python - foca em pontos que precisam de cobertura
+float ajusteFino = 0.75;
+
+float stepInteligente = ((r * sqrt(2) - minDistCirculos) / 2) * ajusteFino;
+//float stepInteligente = (maxX - minX) / 50;
+
 execute {
     // Estrutura para rastrear cobertura dos pontos
     var coberturaPontos = new Array(n+1);
@@ -47,16 +51,14 @@ execute {
             var melhorPosX = -1;
             var melhorPosY = -1;
             var melhorCobertura = -1;
+            var melhorDesempate = -1;
             
             // Explora posições possíveis dentro do raio do ponto atual
             // Similar ao loop Python: for x in range(-alcance, alcance+1)
-            for(var offsetX = -r; offsetX <= r; offsetX++) {
-                for(var offsetY = -r; offsetY <= r; offsetY++) {
+            for(var candidatoX = Math.floor(x[p] - r); candidatoX <= Math.floor(x[p] + r); candidatoX++) {
+                for(var candidatoY = Math.floor(y[p] - r); candidatoY <= Math.floor(y[p] + r); candidatoY++) {
                     // Verifica se está dentro do alcance circular (como no Python)
-                    if(offsetX*offsetX + offsetY*offsetY <= r*r) {
-                        var candidatoX = Opl.round(x[p] + offsetX);
-                        var candidatoY = Opl.round(y[p] + offsetY);
-                        
+                    if(Math.pow(candidatoX - x[p], 2) + Math.pow(candidatoY - y[p], 2) <= r*r) {                        
                         // Verifica se a posição está dentro dos limites
                         if(candidatoX < minX || candidatoX > maxX || 
                            candidatoY < minY || candidatoY > maxY) {
@@ -78,6 +80,7 @@ execute {
                         
                         // Calcula cobertura desta posição (similar ao calculaCobertura do Python)
                         var coberturaCalculada = 0;
+                        var desempate = 0;
                         for(var ponto = 1; ponto <= n; ponto++) {
                             var distX = x[ponto] - candidatoX;
                             var distY = y[ponto] - candidatoY;
@@ -87,9 +90,9 @@ execute {
                                 // Prioriza pontos que precisam de mais cobertura
                                 var faltaCobertura = Math.max(0, minCoverage - coberturaPontos[ponto]);
                                 if(faltaCobertura > 0) {
-                                    coberturaCalculada += faltaCobertura * 10; // Peso alto para pontos sub-cobertos
+                                    coberturaCalculada += faltaCobertura; // Peso alto para pontos sub-cobertos
                                 }
-                                coberturaCalculada += 1; // Peso base para qualquer ponto coberto
+                                desempate++; // Conta pontos cobertos para desempate
                             }
                         }
                         
@@ -98,6 +101,13 @@ execute {
                             melhorCobertura = coberturaCalculada;
                             melhorPosX = candidatoX;
                             melhorPosY = candidatoY;
+                            melhorDesempate = desempate;
+                        } else if (coberturaCalculada == melhorCobertura) {
+                            if (desempate > melhorDesempate) {
+                                melhorDesempate = desempate;
+                                melhorPosX = candidatoX;
+                                melhorPosY = candidatoY;
+                            }
                         }
                     }
                 }
@@ -106,6 +116,7 @@ execute {
             // Se ainda não encontrou posição, para para evitar loop infinito
             if(melhorCobertura == -1) {
                 writeln("ERRO: Não foi possível encontrar posição válida para cobrir ponto " + p);
+                writeln(x[p], y[p]);
                 break;
             }
             
@@ -165,8 +176,8 @@ dvar int centroY[Circulos] in minY..maxY;       // Coordenada y do centro do cí
 dvar boolean pontoCoberto[Pontos][Circulos];    // 1 se o ponto p é coberto pelo círculo k
 
 execute {
-    cp.param.timeLimit=600;
-    cp.param.logPeriod=100000;
+    cp.param.timeLimit=21600;
+    cp.param.logPeriod=1000000;
 }
 
 // Função objetivo: minimizar número de círculos usados
@@ -199,11 +210,12 @@ subject to {
         useCirculo[k] >= useCirculo[k+1];
     }
     
-    // Restrições de inicialização baseadas na heurística
-    // Fixa as posições iniciais dos círculos com base na heurística
+    // INICIALIZAÇÃO INTELIGENTE: Sugere posições da heurística como ponto de partida
+    // Permite flexibilidade para o CP otimizar a partir da solução heurística
     forall(k in Circulos) {
-        centroX[k] == centrosHeuristicoX[k];
-        centroY[k] == centrosHeuristicoY[k];
+        // Domínio mais restrito ao redor da solução heurística
+        abs(centroX[k] - centrosHeuristicoX[k]) <= r / ajusteFino;
+        abs(centroY[k] - centrosHeuristicoY[k]) <= r / ajusteFino;
     }
 }
 

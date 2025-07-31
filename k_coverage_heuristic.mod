@@ -24,7 +24,7 @@ int circulosUsados = 0;
 int centrosHeuristicoX[1..n*minCoverage];  // Array para posições X encontradas pela heurística
 int centrosHeuristicoY[1..n*minCoverage];  // Array para posições Y encontradas pela heurística
 
-float ajusteFino = 0.45;
+float ajusteFino = 0.5;
 
 float stepInteligente = ((r * sqrt(2) - minDistCirculos) / 2) * ajusteFino;
 //float stepInteligente = (maxX - minX) / 50;

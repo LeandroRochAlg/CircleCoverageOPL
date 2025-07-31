@@ -109,61 +109,10 @@ execute {
                 }
             }
             
-            // Se não encontrou posição válida, tenta busca mais ampla
-            if(melhorPosX == -1) {
-                writeln("Busca local falhou para ponto " + p + ", tentando busca global...");
-                
-                // Busca global com passo maior (fallback)
-                var step = Math.max(1, Math.floor((maxX - minX) / 30));
-                for(var cx = minX; cx <= maxX; cx += step) {
-                    for(var cy = minY; cy <= maxY; cy += step) {
-                        // Verifica distância mínima
-                        var muitoProximo = false;
-                        for(var i = 0; i < numCentrosUsados; i++) {
-                            var dx = cx - centrosUsadosX[i];
-                            var dy = cy - centrosUsadosY[i];
-                            if(dx*dx + dy*dy < minDistCirculos*minDistCirculos) {
-                                muitoProximo = true;
-                                break;
-                            }
-                        }
-                        
-                        if(muitoProximo) continue;
-                        
-                        // Calcula cobertura
-                        var coberturaCalculada = 0;
-                        var desempate = 0;
-                        for(var ponto = 1; ponto <= n; ponto++) {
-                            var distX = x[ponto] - cx;
-                            var distY = y[ponto] - cy;
-                            if(distX*distX + distY*distY <= r*r) {
-                                var faltaCobertura = Math.max(0, minCoverage - coberturaPontos[ponto]);
-                                if(faltaCobertura > 0) {
-                                    coberturaCalculada += faltaCobertura;
-                                }
-                                desempate++; // Conta pontos cobertos para desempate
-                            }
-                        }
-                        
-                        if(coberturaCalculada > melhorCobertura) {
-                            melhorCobertura = coberturaCalculada;
-                            melhorPosX = cx;
-                            melhorPosY = cy;
-                            melhorDesempate = desempate;
-                        } else if (coberturaCalculada == melhorCobertura) {
-                            if (desempate > melhorDesempate) {
-                                melhorDesempate = desempate;
-                                melhorPosX = cx;
-                                melhorPosY = cy;
-                            }
-                        }
-                    }
-                }
-            }
-            
             // Se ainda não encontrou posição, para para evitar loop infinito
-            if(melhorPosX == -1) {
+            if(melhorCobertura == -1) {
                 writeln("ERRO: Não foi possível encontrar posição válida para cobrir ponto " + p);
+                writeln(x[p], y[p]);
                 break;
             }
             

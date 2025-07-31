@@ -103,6 +103,16 @@
 			</ref>
             		
         </config>
+        		
+        <config default="false" name="Config7_2" category="opl">
+            			
+            <ref name="k_coverage_heuristic2.mod" type="model">
+			</ref>
+            			
+            <ref name="circle_coverage.dat" type="data">
+			</ref>
+            		
+        </config>
         	
     </configs>
     	
