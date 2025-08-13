@@ -113,6 +113,16 @@
 			</ref>
             		
         </config>
+        		
+        <config default="false" name="ConfigModular" category="opl">
+            			
+            <ref name="circle_coverage.dat" type="data">
+			</ref>
+            			
+            <ref name="exemplo_modular_real.mod" type="model">
+			</ref>
+            		
+        </config>
         	
     </configs>
     	
