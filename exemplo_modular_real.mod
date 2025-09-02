@@ -24,7 +24,7 @@ execute CP_CONFIG {
 }
 
 // Include heuristic
-include "modular_heuristic.mod";
+include "modular_heuristic3.mod";
 
 // Usa o resultado da heurística para definir o range (mais conservador)
 int maxCirculos = circulosUsados;
