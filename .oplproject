@@ -123,6 +123,16 @@
 			</ref>
             		
         </config>
+        		
+        <config default="false" name="ConfigFixCiruclo" category="opl">
+            			
+            <ref name="modelo_fix_circ.mod" type="model">
+			</ref>
+            			
+            <ref name="circle_coverage.dat" type="data">
+			</ref>
+            		
+        </config>
         	
     </configs>
     	
