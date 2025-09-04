@@ -11,7 +11,7 @@ using CP;
 include "common_base.mod";
 
 // Cálculo de ajuste fino, step e outros parâmetros
-float ajusteFino = 0.75;
+float ajusteFino = 0.5;
 float stepInteligente = ((r * sqrt(2) - minDistCirculos) / 2) * ajusteFino;
 
 // Configuração CP
@@ -24,7 +24,7 @@ execute CP_CONFIG {
 }
 
 // Include heuristic
-include "modular_heuristic3.mod";
+include "modular_heuristic4.mod";
 
 // Usa o resultado da heurística para definir o range (mais conservador)
 int maxCirculos = circulosUsados;

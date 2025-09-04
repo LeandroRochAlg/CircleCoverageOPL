@@ -23,7 +23,7 @@ int maxY = ...;
 // Área total da região
 float areaTotal = (maxX - minX) * (maxY - minY);
 float areaCirculo = 3.14159 * r * r;
-int estimativaCirculos = ftoi(ceil(areaTotal / areaCirculo)) * minCoverage;	// não faz sentido
+int estimativaCirculos = n * minCoverage;	// não faz sentido
 int maxCirculos = minl(n * minCoverage, estimativaCirculos * 2); // Limite mais realista mas não faz sentido
 range Circulos = 1..maxCirculos;
 
@@ -71,6 +71,11 @@ subject to {
     // Quebra de simetria: usar círculos em ordem
     forall(k in 1..maxCirculos-1) {
         useCirculo[k] >= useCirculo[k+1];
+    }
+    
+	// Essa restrição só pode atingir círculos não fixados
+    forall(k in 1..(maxCirculos-1)) {
+      	useCirculo[k + 1] == 0 || centroX[k] < centroX[k+1] || (centroX[k] == centroX[k+1] && centroY[k] < centroY[k+1]);
     }
 }
 

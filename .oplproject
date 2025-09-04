@@ -133,6 +133,16 @@
 			</ref>
             		
         </config>
+        		
+        <config default="false" name="ConfigFixCirculoConstraint" category="opl">
+            			
+            <ref name="circle_coverage.dat" type="data">
+			</ref>
+            			
+            <ref name="modelo_combinado_funcional.mod" type="model">
+			</ref>
+            		
+        </config>
         	
     </configs>
     	
