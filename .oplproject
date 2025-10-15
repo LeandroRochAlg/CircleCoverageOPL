@@ -143,6 +143,16 @@
 			</ref>
             		
         </config>
+        		
+        <config default="false" name="ConfigFixCirculoV3" category="opl">
+            			
+            <ref name="modelo_fix_circ_preprocessing_v3.mod" type="model">
+			</ref>
+            			
+            <ref name="circle_coverage.dat" type="data">
+			</ref>
+            		
+        </config>
         	
     </configs>
     	
