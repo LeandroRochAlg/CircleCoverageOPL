@@ -65,7 +65,8 @@ subject to {
     
     // SIMPLIFICAÇÃO: Separação mínima usando distância Manhattan
     forall(i in Circulos, j in Circulos : i < j) {
-        (centroX[i] - centroX[j])^2 + (centroY[i] - centroY[j])^2 >= minDistCirculos^2 - minDistCirculos^2 * (2 - useCirculo[i] - useCirculo[j]);
+        (centroX[i] - centroX[j])^2 + (centroY[i] - centroY[j])^2 >=
+        minDistCirculos^2 - minDistCirculos^2 * (2 - useCirculo[i] - useCirculo[j]);
     }
     
     // Quebra de simetria: usar círculos em ordem
@@ -73,10 +74,19 @@ subject to {
         useCirculo[k] >= useCirculo[k+1];
     }
     
-	// Essa restrição só pode atingir círculos não fixados
+    // Quebra de simetria adicional: ordenação dos centros para círculos usados
     forall(k in 1..(maxCirculos-1)) {
-      	useCirculo[k + 1] == 0 || centroX[k] < centroX[k+1] || (centroX[k] == centroX[k+1] && centroY[k] < centroY[k+1]);
+        // Se ambos os círculos k e k+1 estão sendo usados, então ordena
+        (useCirculo[k] == 0 || useCirculo[k+1] == 0) || 
+        (centroX[k] <= centroX[k+1]);
     }
+    
+        // Quebra de simetria adicional: ordenação dos centros para círculos usados
+//    forall(k in 1..(maxCirculos-1)) {
+//        // Se ambos os círculos k e k+1 estão sendo usados, então ordena
+//        (useCirculo[k] == 0 || useCirculo[k+1] == 0) || 
+//        (centroX[k] < centroX[k+1] || (centroX[k] == centroX[k+1] && centroY[k] < centroY[k+1]));
+//    }
 }
 
 execute DISPLAY_RESULTS {

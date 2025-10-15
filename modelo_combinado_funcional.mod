@@ -14,6 +14,7 @@ include "common_base.mod";
 execute CP_CONFIG {
     cp.param.timeLimit = 3600;
     cp.param.logVerbosity = "Quiet";
+    cp.param.workers = 1;  // Força execução single-thread
     writeln("=== MODELO COMBINADO: ÂNCORAS + HEURÍSTICA4 ===");
 }
 
@@ -128,8 +129,11 @@ subject to {
     }
     
     // Essa restrição só pode atingir círculos não fixados
+    // Quebra de simetria adicional: ordenação dos centros para círculos usados
     forall(k in 1..(maxCirculos-1)) {
-      	useCirculo[k + 1] == 0 || centroX[k] < centroX[k+1] || (centroX[k] == centroX[k+1] && centroY[k] < centroY[k+1]);
+        // Se ambos os círculos k e k+1 estão sendo usados, então ordena
+        (useCirculo[k] == 0 || useCirculo[k+1] == 0) || 
+        (centroX[k] <= centroX[k+1]);
     }
     
     // Incentiva cobertura prioritária dos pontos âncora
@@ -141,13 +145,13 @@ subject to {
     // ===== INICIALIZAÇÃO INTELIGENTE =====
     
     // Restringe domínio dos círculos próximo à solução heurística
-//    forall(k in Circulos) {
+    forall(k in Circulos) {
         // Permite movimento em uma janela ao redor da solução heurística
-//        centroX[k] >= centrosHeuristicoX[k] - r * 2;  // Aproximadamente r
-//        centroX[k] <= centrosHeuristicoX[k] + r * 2;
-//        centroY[k] >= centrosHeuristicoY[k] - r * 2;
-//        centroY[k] <= centrosHeuristicoY[k] + r * 2;
-//    }
+        centroX[k] >= centrosHeuristicoX[k] - r * 2;  // Aproximadamente r
+        centroX[k] <= centrosHeuristicoX[k] + r * 2;
+        centroY[k] >= centrosHeuristicoY[k] - r * 2;
+        centroY[k] <= centrosHeuristicoY[k] + r * 2;
+    }
 }
 
 // Include display

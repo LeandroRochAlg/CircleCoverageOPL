@@ -33,19 +33,31 @@ subject to {
     
     // Separação mínima entre círculos usados
     forall(i in Circulos, j in Circulos : i < j) {
-        (centroX[i] - centroX[j])^2 + (centroY[i] - centroY[j])^2 >= minDistCirculos^2 - minDistCirculos^2 * (2 - useCirculo[i] - useCirculo[j]);
+        (centroX[i] - centroX[j])^2 + (centroY[i] - centroY[j])^2 >=
+        minDistCirculos^2 - minDistCirculos^2 * (2 - useCirculo[i] - useCirculo[j]);
     }
+    
+    // ===== RESTRIÇÕES DE QUEBRA DE SIMETRIA =====    
     
     // Quebra de simetria: usar círculos em ordem
     forall(k in 1..maxCirculos-1) {
         useCirculo[k] >= useCirculo[k+1];
     }
     
+    // Quebra de simetria adicional: ordenação dos centros para círculos usados
+    forall(k in 1..(maxCirculos-1)) {
+        // Se ambos os círculos k e k+1 estão sendo usados, então ordena
+        (useCirculo[k] == 0 || useCirculo[k+1] == 0) || 
+        (centroX[k] <= centroX[k+1]);
+    }
+    
     // INICIALIZAÇÃO INTELIGENTE: Sugere posições da heurística como ponto de partida
     // Permite flexibilidade para o CP otimizar a partir da solução heurística
     forall(k in Circulos) {
-        // Domínio mais restrito ao redor da solução heurística
-        abs(centroX[k] - centrosHeuristicoX[k]) <= r / ajusteFino;
-        abs(centroY[k] - centrosHeuristicoY[k]) <= r / ajusteFino;
+        // Permite movimento em uma janela ao redor da solução heurística
+        centroX[k] >= centrosHeuristicoX[k] - r * 2;  // Aproximadamente r
+        centroX[k] <= centrosHeuristicoX[k] + r * 2;
+        centroY[k] >= centrosHeuristicoY[k] - r * 2;
+        centroY[k] <= centrosHeuristicoY[k] + r * 2;
     }
 }

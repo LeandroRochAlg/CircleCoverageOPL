@@ -18,6 +18,7 @@ float stepInteligente = ((r * sqrt(2) - minDistCirculos) / 2) * ajusteFino;
 execute CP_CONFIG {
     cp.param.timeLimit = 3600;
     cp.param.logVerbosity = "Quiet";
+    cp.param.Workers = 1;
     writeln("=== EXEMPLO MODULAR REAL ===");
     writeln("Ajuste Fino: " + ajusteFino);
     writeln("Step Inteligente: " + stepInteligente);
