@@ -1,0 +1,26 @@
+=== RESULTADOS DA SOLUÇÃO ===
+Timestamp: 20250610_233823
+Número de pontos: 5
+Número de círculos: 9
+Raio dos círculos: 4
+Cobertura mínima: 5
+Distância mínima entre círculos: 1
+Tempo de execução: 1.00 segundos
+
+=== PONTOS ===
+Ponto 1: (1, 2) - Cobertura: 5
+Ponto 2: (3, 4) - Cobertura: 9
+Ponto 3: (6, 5) - Cobertura: 5
+Ponto 4: (2, 7) - Cobertura: 9
+Ponto 5: (5, 8) - Cobertura: 5
+
+=== CÍRCULOS ===
+Círculo 1: Centro (2, 5)
+Círculo 2: Centro (2, 7)
+Círculo 3: Centro (3, 4)
+Círculo 4: Centro (3, 6)
+Círculo 5: Centro (3, 5)
+Círculo 6: Centro (1, 4)
+Círculo 7: Centro (1, 5)
+Círculo 8: Centro (2, 6)
+Círculo 9: Centro (3, 7)

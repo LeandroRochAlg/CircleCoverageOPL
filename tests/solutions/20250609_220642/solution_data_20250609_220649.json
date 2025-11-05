@@ -1,0 +1,51 @@
+{
+  "num_circles": 3,
+  "radius": 4,
+  "min_coverage": 2,
+  "min_dist_circles": 0.83,
+  "num_points": 5,
+  "points": [
+    [
+      1,
+      2
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      6,
+      5
+    ],
+    [
+      2,
+      7
+    ],
+    [
+      5,
+      8
+    ]
+  ],
+  "circles": [
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      3,
+      5
+    ]
+  ],
+  "coverage_per_point": [
+    2,
+    3,
+    3,
+    3,
+    2
+  ],
+  "execution_time": 0.25
+}

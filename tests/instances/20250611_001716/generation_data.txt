@@ -1,0 +1,8 @@
+=== DADOS DE GERAÇÃO ===
+Timestamp: 20250611_001716
+Raio: 50
+Número de pontos: 7
+Cobertura mínima: 5
+Distância mínima entre círculos: 0.73
+Pontos X: [3.57, 19.61, 52.63, -29.96, 27.55, 27.76, 9.57]
+Pontos Y: [8.83, -17.32, 21.48, 88.66, -72.18, -1.54, 20.28]

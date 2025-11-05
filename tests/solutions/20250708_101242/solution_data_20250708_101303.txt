@@ -1,0 +1,482 @@
+=== RESULTADOS DA SOLUÇÃO ===
+Timestamp: 20250708_101303
+Número de pontos: 317
+Número de círculos: 153
+Raio dos círculos: 18.7
+Cobertura mínima: 2
+Distância mínima entre círculos: 1.56
+Tempo de execução: 732.20 segundos
+
+=== PONTOS ===
+Ponto 1: (-80.28, -40.48) - Cobertura: 2
+Ponto 2: (34.39, -91.04) - Cobertura: 2
+Ponto 3: (-105.64, 36.83) - Cobertura: 4
+Ponto 4: (-4.28, -45.33) - Cobertura: 2
+Ponto 5: (28.7, -71.27) - Cobertura: 2
+Ponto 6: (-170.66, -78.89) - Cobertura: 3
+Ponto 7: (-21.4, 109.01) - Cobertura: 2
+Ponto 8: (23.56, 91.19) - Cobertura: 3
+Ponto 9: (39.63, 180.22) - Cobertura: 2
+Ponto 10: (-55.47, -105.11) - Cobertura: 2
+Ponto 11: (-77.44, -50.56) - Cobertura: 2
+Ponto 12: (-15.19, 116.84) - Cobertura: 2
+Ponto 13: (-102.9, 89.28) - Cobertura: 3
+Ponto 14: (95.6, -10.1) - Cobertura: 3
+Ponto 15: (19.83, -5.83) - Cobertura: 3
+Ponto 16: (119.06, -179.11) - Cobertura: 2
+Ponto 17: (-1.72, 62.54) - Cobertura: 2
+Ponto 18: (156.65, 35.89) - Cobertura: 2
+Ponto 19: (-177.23, -89.88) - Cobertura: 3
+Ponto 20: (-8.38, 87.23) - Cobertura: 3
+Ponto 21: (-14.85, 47.59) - Cobertura: 3
+Ponto 22: (-32.46, -2.68) - Cobertura: 2
+Ponto 23: (-12.12, -62.11) - Cobertura: 3
+Ponto 24: (-15.36, -13.68) - Cobertura: 2
+Ponto 25: (122.03, 63.48) - Cobertura: 4
+Ponto 26: (67.06, 3.22) - Cobertura: 5
+Ponto 27: (-78.59, 33.68) - Cobertura: 3
+Ponto 28: (-64.81, 86.28) - Cobertura: 4
+Ponto 29: (-85.85, -79.76) - Cobertura: 3
+Ponto 30: (-54.9, 20.29) - Cobertura: 3
+Ponto 31: (-23.05, 35.96) - Cobertura: 3
+Ponto 32: (34.44, 88.61) - Cobertura: 3
+Ponto 33: (28.19, 9.2) - Cobertura: 2
+Ponto 34: (17.87, 106.81) - Cobertura: 2
+Ponto 35: (-27.08, 16.67) - Cobertura: 3
+Ponto 36: (70.22, -104.03) - Cobertura: 2
+Ponto 37: (96.13, 118.08) - Cobertura: 2
+Ponto 38: (15.16, -60.53) - Cobertura: 2
+Ponto 39: (126.86, -46.68) - Cobertura: 3
+Ponto 40: (-95.26, 0.81) - Cobertura: 2
+Ponto 41: (58.23, -135.45) - Cobertura: 4
+Ponto 42: (-64.93, 27.61) - Cobertura: 2
+Ponto 43: (-103.82, 21.95) - Cobertura: 4
+Ponto 44: (48.81, 76) - Cobertura: 2
+Ponto 45: (-43.15, 5.9) - Cobertura: 3
+Ponto 46: (9.85, -72.51) - Cobertura: 4
+Ponto 47: (116.75, -86.2) - Cobertura: 4
+Ponto 48: (-53.06, -37.67) - Cobertura: 3
+Ponto 49: (46.6, 43.4) - Cobertura: 2
+Ponto 50: (-9.32, 72.3) - Cobertura: 2
+Ponto 51: (-85.17, 64.76) - Cobertura: 2
+Ponto 52: (-88.95, -87.85) - Cobertura: 3
+Ponto 53: (-64.16, -73.09) - Cobertura: 4
+Ponto 54: (-11.71, 52.69) - Cobertura: 3
+Ponto 55: (-103.6, 43.11) - Cobertura: 4
+Ponto 56: (-2.12, -100.15) - Cobertura: 2
+Ponto 57: (-39.7, 29.6) - Cobertura: 2
+Ponto 58: (5.56, 31.35) - Cobertura: 2
+Ponto 59: (98.79, 5.2) - Cobertura: 2
+Ponto 60: (-132.45, 39.55) - Cobertura: 2
+Ponto 61: (-120.25, -33.33) - Cobertura: 2
+Ponto 62: (-13.83, 17.74) - Cobertura: 4
+Ponto 63: (3.33, -163.89) - Cobertura: 4
+Ponto 64: (7.63, -18.8) - Cobertura: 3
+Ponto 65: (-88.06, 149.79) - Cobertura: 2
+Ponto 66: (-34.41, -48.22) - Cobertura: 2
+Ponto 67: (47.15, 21.83) - Cobertura: 3
+Ponto 68: (-11.64, 13.69) - Cobertura: 3
+Ponto 69: (-137.26, 94.67) - Cobertura: 2
+Ponto 70: (40.09, 102.25) - Cobertura: 3
+Ponto 71: (58.15, -53.67) - Cobertura: 2
+Ponto 72: (-95.96, 52.46) - Cobertura: 2
+Ponto 73: (-40.39, -33.57) - Cobertura: 3
+Ponto 74: (-12.76, 6) - Cobertura: 3
+Ponto 75: (-21.52, -28.28) - Cobertura: 2
+Ponto 76: (108.68, 60.28) - Cobertura: 3
+Ponto 77: (40.15, 50.46) - Cobertura: 2
+Ponto 78: (148.25, -57.82) - Cobertura: 2
+Ponto 79: (-15.11, 111.4) - Cobertura: 3
+Ponto 80: (-95.54, 142.18) - Cobertura: 3
+Ponto 81: (1.25, 4.97) - Cobertura: 2
+Ponto 82: (-42.55, 65.89) - Cobertura: 3
+Ponto 83: (103.06, -83.76) - Cobertura: 3
+Ponto 84: (72.37, 12.86) - Cobertura: 4
+Ponto 85: (48.73, -100.01) - Cobertura: 2
+Ponto 86: (-2.79, 37.4) - Cobertura: 2
+Ponto 87: (-122.33, -54.52) - Cobertura: 2
+Ponto 88: (-72.24, 102.77) - Cobertura: 3
+Ponto 89: (-19.29, 140.22) - Cobertura: 2
+Ponto 90: (3.1, -14.08) - Cobertura: 2
+Ponto 91: (-106.33, -36.33) - Cobertura: 2
+Ponto 92: (5.88, -25.98) - Cobertura: 2
+Ponto 93: (69.09, 32.84) - Cobertura: 2
+Ponto 94: (19.6, 156.9) - Cobertura: 5
+Ponto 95: (-15.01, -65.75) - Cobertura: 2
+Ponto 96: (-16.02, 84.12) - Cobertura: 3
+Ponto 97: (-130.81, -104.16) - Cobertura: 3
+Ponto 98: (-67.45, 76.23) - Cobertura: 3
+Ponto 99: (34.89, 9.28) - Cobertura: 3
+Ponto 100: (32.02, 69.5) - Cobertura: 2
+Ponto 101: (-80.63, -12.77) - Cobertura: 3
+Ponto 102: (-45.75, -57.46) - Cobertura: 2
+Ponto 103: (41.88, -82.3) - Cobertura: 3
+Ponto 104: (164.36, -11.63) - Cobertura: 2
+Ponto 105: (25.97, -9.41) - Cobertura: 3
+Ponto 106: (-21.6, 84.6) - Cobertura: 2
+Ponto 107: (66.28, 4.55) - Cobertura: 5
+Ponto 108: (55.46, 111.05) - Cobertura: 2
+Ponto 109: (29.36, -29.28) - Cobertura: 2
+Ponto 110: (-30.08, 21.09) - Cobertura: 3
+Ponto 111: (30.83, 66.9) - Cobertura: 2
+Ponto 112: (-57.82, -25.9) - Cobertura: 3
+Ponto 113: (117.39, -43.05) - Cobertura: 2
+Ponto 114: (141.59, -47.2) - Cobertura: 2
+Ponto 115: (121.83, 73.31) - Cobertura: 4
+Ponto 116: (-92.05, 45.18) - Cobertura: 3
+Ponto 117: (-35.35, 22.78) - Cobertura: 3
+Ponto 118: (-55.82, 22.83) - Cobertura: 3
+Ponto 119: (-78.63, -88.5) - Cobertura: 4
+Ponto 120: (-91.84, 25.41) - Cobertura: 4
+Ponto 121: (145.21, -38.05) - Cobertura: 2
+Ponto 122: (55.59, 20.13) - Cobertura: 4
+Ponto 123: (23.27, 67.58) - Cobertura: 2
+Ponto 124: (-29.4, -132.57) - Cobertura: 2
+Ponto 125: (-113.72, -80.46) - Cobertura: 2
+Ponto 126: (65.96, -116.71) - Cobertura: 3
+Ponto 127: (-39.8, 15.55) - Cobertura: 4
+Ponto 128: (25.93, 25.57) - Cobertura: 2
+Ponto 129: (89.74, -99.58) - Cobertura: 2
+Ponto 130: (143.79, -73.21) - Cobertura: 2
+Ponto 131: (93.2, -24.35) - Cobertura: 2
+Ponto 132: (-106.62, 67) - Cobertura: 2
+Ponto 133: (-95.08, -11.77) - Cobertura: 2
+Ponto 134: (-20.09, 2.97) - Cobertura: 2
+Ponto 135: (45.44, 148.62) - Cobertura: 2
+Ponto 136: (-85.38, -71.66) - Cobertura: 2
+Ponto 137: (40.34, 109.45) - Cobertura: 3
+Ponto 138: (20.27, -23.35) - Cobertura: 3
+Ponto 139: (-68.08, 120.67) - Cobertura: 2
+Ponto 140: (79.87, -32.98) - Cobertura: 2
+Ponto 141: (143.64, -74.79) - Cobertura: 2
+Ponto 142: (-51.37, 78.08) - Cobertura: 2
+Ponto 143: (-82.52, 28.01) - Cobertura: 4
+Ponto 144: (-172.43, -46.13) - Cobertura: 2
+Ponto 145: (-43.97, -5.59) - Cobertura: 3
+Ponto 146: (-49.3, -31.3) - Cobertura: 3
+Ponto 147: (-85.93, -97.83) - Cobertura: 3
+Ponto 148: (-142, -6.81) - Cobertura: 2
+Ponto 149: (126.48, 0.58) - Cobertura: 2
+Ponto 150: (-2.4, 107.53) - Cobertura: 3
+Ponto 151: (72.68, -75.28) - Cobertura: 2
+Ponto 152: (-15.86, 19.42) - Cobertura: 4
+Ponto 153: (-36.44, 40.51) - Cobertura: 5
+Ponto 154: (59.78, 113.55) - Cobertura: 2
+Ponto 155: (-33.74, 41.13) - Cobertura: 5
+Ponto 156: (-13.06, 132.83) - Cobertura: 3
+Ponto 157: (3.8, -53.35) - Cobertura: 2
+Ponto 158: (-8.92, -84.86) - Cobertura: 3
+Ponto 159: (-56.85, 33.41) - Cobertura: 2
+Ponto 160: (-62.65, 9.92) - Cobertura: 2
+Ponto 161: (-2.98, 83.68) - Cobertura: 3
+Ponto 162: (-37.04, -1.43) - Cobertura: 3
+Ponto 163: (60.78, 13.04) - Cobertura: 4
+Ponto 164: (-28.67, -24.05) - Cobertura: 4
+Ponto 165: (9.91, 158.55) - Cobertura: 2
+Ponto 166: (-88.08, 76.68) - Cobertura: 2
+Ponto 167: (62.57, -4.3) - Cobertura: 2
+Ponto 168: (60.13, 74.13) - Cobertura: 2
+Ponto 169: (241.9, 67.31) - Cobertura: 2
+Ponto 170: (16.1, 80.99) - Cobertura: 2
+Ponto 171: (23.58, -3.95) - Cobertura: 2
+Ponto 172: (22.43, -90.41) - Cobertura: 4
+Ponto 173: (155.17, -34.93) - Cobertura: 2
+Ponto 174: (-36.87, 42.2) - Cobertura: 4
+Ponto 175: (-105.35, 115.21) - Cobertura: 2
+Ponto 176: (-61.77, 70.35) - Cobertura: 2
+Ponto 177: (28.18, 131.52) - Cobertura: 2
+Ponto 178: (-11.4, 0.38) - Cobertura: 3
+Ponto 179: (-78.76, -38.42) - Cobertura: 2
+Ponto 180: (-35.79, -36.55) - Cobertura: 2
+Ponto 181: (-141.58, -58.89) - Cobertura: 2
+Ponto 182: (-39.81, -14.92) - Cobertura: 3
+Ponto 183: (16.34, -2.8) - Cobertura: 2
+Ponto 184: (-70.19, -57.56) - Cobertura: 2
+Ponto 185: (-55.56, -24.26) - Cobertura: 2
+Ponto 186: (81.74, -170.93) - Cobertura: 2
+Ponto 187: (-27.9, 27.16) - Cobertura: 3
+Ponto 188: (-3.37, 0.05) - Cobertura: 3
+Ponto 189: (41.77, 17.51) - Cobertura: 3
+Ponto 190: (-81.93, -100) - Cobertura: 2
+Ponto 191: (-40.89, 74.14) - Cobertura: 2
+Ponto 192: (5.1, 56.19) - Cobertura: 2
+Ponto 193: (-58.87, -4.36) - Cobertura: 2
+Ponto 194: (-82.21, -2.31) - Cobertura: 2
+Ponto 195: (57.98, -133.47) - Cobertura: 4
+Ponto 196: (20.67, -22.38) - Cobertura: 2
+Ponto 197: (-191.18, 82.98) - Cobertura: 2
+Ponto 198: (-59.16, 7.09) - Cobertura: 2
+Ponto 199: (44.03, -44.11) - Cobertura: 2
+Ponto 200: (-71.45, -27.62) - Cobertura: 2
+Ponto 201: (73.76, -8.19) - Cobertura: 2
+Ponto 202: (-63.31, 78.37) - Cobertura: 3
+Ponto 203: (131.94, 112.64) - Cobertura: 2
+Ponto 204: (11.43, 7.58) - Cobertura: 3
+Ponto 205: (30.06, -37.39) - Cobertura: 2
+Ponto 206: (-43.09, 59.5) - Cobertura: 2
+Ponto 207: (37.53, -55.61) - Cobertura: 2
+Ponto 208: (-71.1, -32.95) - Cobertura: 2
+Ponto 209: (10.7, -2.1) - Cobertura: 2
+Ponto 210: (-96.24, 214.14) - Cobertura: 2
+Ponto 211: (50.27, -69.89) - Cobertura: 3
+Ponto 212: (10.7, -40.7) - Cobertura: 2
+Ponto 213: (-79.27, 122.82) - Cobertura: 4
+Ponto 214: (-17.25, 22.51) - Cobertura: 5
+Ponto 215: (-2.55, 65.83) - Cobertura: 2
+Ponto 216: (-196.25, -64.96) - Cobertura: 2
+Ponto 217: (-23.55, -27.98) - Cobertura: 2
+Ponto 218: (-54.05, -105.65) - Cobertura: 2
+Ponto 219: (75.34, -7.42) - Cobertura: 2
+Ponto 220: (108.14, -76.55) - Cobertura: 2
+Ponto 221: (99.04, 55.21) - Cobertura: 2
+Ponto 222: (-7.51, 160.58) - Cobertura: 2
+Ponto 223: (-175.7, 86.78) - Cobertura: 2
+Ponto 224: (118.64, 59.54) - Cobertura: 4
+Ponto 225: (191.19, 91.69) - Cobertura: 2
+Ponto 226: (-67.78, -92) - Cobertura: 5
+Ponto 227: (-52.67, -37.48) - Cobertura: 3
+Ponto 228: (-32.05, 27.54) - Cobertura: 3
+Ponto 229: (-8.89, 52.11) - Cobertura: 2
+Ponto 230: (-74.86, 73.1) - Cobertura: 2
+Ponto 231: (33.75, -71.22) - Cobertura: 3
+Ponto 232: (-37.63, 46.23) - Cobertura: 4
+Ponto 233: (-2.99, -58.26) - Cobertura: 2
+Ponto 234: (-40.66, -41.49) - Cobertura: 2
+Ponto 235: (-139.35, -38.06) - Cobertura: 5
+Ponto 236: (116.55, 67.64) - Cobertura: 4
+Ponto 237: (-50.84, 96.39) - Cobertura: 2
+Ponto 238: (209.5, -70.55) - Cobertura: 2
+Ponto 239: (154.97, 107.7) - Cobertura: 2
+Ponto 240: (20.94, -5.91) - Cobertura: 3
+Ponto 241: (-121.77, -135.62) - Cobertura: 2
+Ponto 242: (89.13, -18.66) - Cobertura: 2
+Ponto 243: (9.17, -184.83) - Cobertura: 2
+Ponto 244: (32.76, -55.8) - Cobertura: 2
+Ponto 245: (-18.02, 35.22) - Cobertura: 3
+Ponto 246: (-59.83, 10.6) - Cobertura: 2
+Ponto 247: (28.61, 11.27) - Cobertura: 2
+Ponto 248: (25.81, 55.98) - Cobertura: 2
+Ponto 249: (21.04, -26.01) - Cobertura: 2
+Ponto 250: (65.13, -134.73) - Cobertura: 2
+Ponto 251: (76.79, 75.21) - Cobertura: 2
+Ponto 252: (139.96, 66.33) - Cobertura: 2
+Ponto 253: (-64.86, 97.77) - Cobertura: 3
+Ponto 254: (-70.42, -25.82) - Cobertura: 3
+Ponto 255: (115.18, -41.34) - Cobertura: 2
+Ponto 256: (-67.1, 1.49) - Cobertura: 3
+Ponto 257: (-5.57, 117.59) - Cobertura: 2
+Ponto 258: (19.14, 6.97) - Cobertura: 2
+Ponto 259: (-103.71, 85.52) - Cobertura: 2
+Ponto 260: (-32.51, -64.33) - Cobertura: 2
+Ponto 261: (-55.64, -72.73) - Cobertura: 3
+Ponto 262: (-56.91, -41.51) - Cobertura: 2
+Ponto 263: (-151.23, -87.28) - Cobertura: 2
+Ponto 264: (115.18, -13.78) - Cobertura: 3
+Ponto 265: (-9, 115.94) - Cobertura: 2
+Ponto 266: (-63.37, -79.47) - Cobertura: 4
+Ponto 267: (-44.54, 20.61) - Cobertura: 3
+Ponto 268: (13.33, -76.4) - Cobertura: 4
+Ponto 269: (35.23, -91.59) - Cobertura: 2
+Ponto 270: (-98.14, 31.89) - Cobertura: 5
+Ponto 271: (49.48, 19.22) - Cobertura: 4
+Ponto 272: (-68.63, -24.74) - Cobertura: 3
+Ponto 273: (30.06, 11.68) - Cobertura: 2
+Ponto 274: (-66.6, -68.16) - Cobertura: 3
+Ponto 275: (46.96, 18.73) - Cobertura: 4
+Ponto 276: (69.9, 76.01) - Cobertura: 2
+Ponto 277: (-10.38, -25.81) - Cobertura: 2
+Ponto 278: (3.22, -57.27) - Cobertura: 2
+Ponto 279: (61.15, 26.3) - Cobertura: 4
+Ponto 280: (87.6, -34.93) - Cobertura: 2
+Ponto 281: (20.78, 18.97) - Cobertura: 2
+Ponto 282: (94.88, -74.97) - Cobertura: 2
+Ponto 283: (-60.19, 113.25) - Cobertura: 2
+Ponto 284: (-124.24, 67.36) - Cobertura: 3
+Ponto 285: (-60.02, -18.7) - Cobertura: 3
+Ponto 286: (33.67, -150.01) - Cobertura: 2
+Ponto 287: (-75.01, -139.56) - Cobertura: 2
+Ponto 288: (-41.03, -44.61) - Cobertura: 2
+Ponto 289: (42.83, -82.23) - Cobertura: 3
+Ponto 290: (66.32, 28.24) - Cobertura: 3
+Ponto 291: (-110.59, 27.28) - Cobertura: 4
+Ponto 292: (21.09, -84.79) - Cobertura: 4
+Ponto 293: (-18.64, 50.6) - Cobertura: 3
+Ponto 294: (-31.14, -66.96) - Cobertura: 2
+Ponto 295: (-31.83, -37.07) - Cobertura: 2
+Ponto 296: (124.11, -101.93) - Cobertura: 2
+Ponto 297: (37.36, 72.42) - Cobertura: 2
+Ponto 298: (-170.07, -67.06) - Cobertura: 3
+Ponto 299: (82.05, 18.58) - Cobertura: 2
+Ponto 300: (-45.57, -86.65) - Cobertura: 2
+Ponto 301: (-23.02, -171.12) - Cobertura: 2
+Ponto 302: (-34.05, 53.7) - Cobertura: 3
+Ponto 303: (76.18, -13.78) - Cobertura: 3
+Ponto 304: (-36.86, 40.77) - Cobertura: 4
+Ponto 305: (-24.5, 15.88) - Cobertura: 3
+Ponto 306: (35.69, -31.12) - Cobertura: 2
+Ponto 307: (-26.16, 40.29) - Cobertura: 4
+Ponto 308: (-53.96, -4.55) - Cobertura: 3
+Ponto 309: (-41.13, 24.22) - Cobertura: 2
+Ponto 310: (-0.74, -32.08) - Cobertura: 2
+Ponto 311: (-32.04, -50.21) - Cobertura: 2
+Ponto 312: (128.56, -20.35) - Cobertura: 3
+Ponto 313: (-41, -22.65) - Cobertura: 3
+Ponto 314: (-60.25, 1.28) - Cobertura: 2
+Ponto 315: (-61.96, -3.02) - Cobertura: 2
+Ponto 316: (28.97, 43.64) - Cobertura: 2
+Ponto 317: (-56.29, -16.84) - Cobertura: 3
+
+=== CÍRCULOS ===
+Círculo 1: Centro (-28, 24)
+Círculo 2: Centro (-44, -24)
+Círculo 3: Centro (12, -8)
+Círculo 4: Centro (-52, 8)
+Círculo 5: Centro (-20, 40)
+Círculo 6: Centro (60, 16)
+Círculo 7: Centro (-68, -40)
+Círculo 8: Centro (20, 8)
+Círculo 9: Centro (-36, -32)
+Círculo 10: Centro (-28, 8)
+Círculo 11: Centro (28, -80)
+Círculo 12: Centro (28, -40)
+Círculo 13: Centro (-100, 32)
+Círculo 14: Centro (-76, -80)
+Círculo 15: Centro (-52, 80)
+Círculo 16: Centro (36, 56)
+Círculo 17: Centro (84, 0)
+Círculo 18: Centro (4, -56)
+Círculo 19: Centro (-68, -8)
+Círculo 20: Centro (-12, 72)
+Círculo 21: Centro (-12, 120)
+Círculo 22: Centro (-60, -88)
+Círculo 23: Centro (-28, -56)
+Círculo 24: Centro (-4, -16)
+Círculo 25: Centro (108, 64)
+Círculo 26: Centro (-28, 56)
+Círculo 27: Centro (-68, 24)
+Círculo 28: Centro (-76, 88)
+Círculo 29: Centro (76, -24)
+Círculo 30: Centro (36, 16)
+Círculo 31: Centro (36, -88)
+Círculo 32: Centro (28, 80)
+Círculo 33: Centro (68, -120)
+Círculo 34: Centro (100, -88)
+Círculo 35: Centro (116, -32)
+Círculo 36: Centro (-100, 40)
+Círculo 37: Centro (-100, 72)
+Círculo 38: Centro (44, 104)
+Círculo 39: Centro (140, -56)
+Círculo 40: Centro (-4, 72)
+Círculo 41: Centro (4, -72)
+Círculo 42: Centro (-76, 112)
+Círculo 43: Centro (-180, -72)
+Círculo 44: Centro (-124, -40)
+Círculo 45: Centro (60, 72)
+Círculo 46: Centro (68, 16)
+Círculo 47: Centro (-84, -24)
+Círculo 48: Centro (-84, -88)
+Círculo 49: Centro (-20, 128)
+Círculo 50: Centro (44, -56)
+Círculo 51: Centro (124, 64)
+Círculo 52: Centro (20, -24)
+Círculo 53: Centro (-60, -56)
+Círculo 54: Centro (-12, -32)
+Círculo 55: Centro (12, 48)
+Círculo 56: Centro (4, 152)
+Círculo 57: Centro (-28, 16)
+Círculo 58: Centro (84, -24)
+Círculo 59: Centro (28, 96)
+Círculo 60: Centro (-164, -80)
+Círculo 61: Centro (-116, 80)
+Círculo 62: Centro (108, -96)
+Círculo 63: Centro (140, -64)
+Círculo 64: Centro (-92, 128)
+Círculo 65: Centro (28, 144)
+Círculo 66: Centro (156, -24)
+Círculo 67: Centro (-68, -96)
+Círculo 68: Centro (-68, 72)
+Círculo 69: Centro (-84, 0)
+Círculo 70: Centro (-20, -72)
+Círculo 71: Centro (52, -128)
+Círculo 72: Centro (60, 80)
+Círculo 73: Centro (108, 0)
+Círculo 74: Centro (-140, -56)
+Círculo 75: Centro (60, -72)
+Círculo 76: Centro (-188, 80)
+Círculo 77: Centro (-132, -120)
+Círculo 78: Centro (-12, -168)
+Círculo 79: Centro (140, 104)
+Círculo 80: Centro (-44, 56)
+Círculo 81: Centro (-12, 96)
+Círculo 82: Centro (-68, 32)
+Círculo 83: Centro (-60, 104)
+Círculo 84: Centro (52, 40)
+Círculo 85: Centro (124, -32)
+Círculo 86: Centro (-180, -56)
+Círculo 87: Centro (-92, 136)
+Círculo 88: Centro (-132, 56)
+Círculo 89: Centro (-124, -96)
+Círculo 90: Centro (-4, -176)
+Círculo 91: Centro (-44, -16)
+Círculo 92: Centro (-4, 16)
+Círculo 93: Centro (52, 8)
+Círculo 94: Centro (4, -88)
+Círculo 95: Centro (12, 96)
+Círculo 96: Centro (44, 112)
+Círculo 97: Centro (100, -80)
+Círculo 98: Centro (-124, -32)
+Círculo 99: Centro (-12, 144)
+Círculo 100: Centro (20, 144)
+Círculo 101: Centro (44, -144)
+Círculo 102: Centro (60, -112)
+Círculo 103: Centro (132, -88)
+Círculo 104: Centro (-188, 88)
+Círculo 105: Centro (-156, -48)
+Círculo 106: Centro (-148, -24)
+Círculo 107: Centro (-132, 80)
+Círculo 108: Centro (28, 168)
+Círculo 109: Centro (140, 112)
+Círculo 110: Centro (164, -24)
+Círculo 111: Centro (-108, 200)
+Círculo 112: Centro (-92, -144)
+Círculo 113: Centro (-44, -144)
+Círculo 114: Centro (68, -176)
+Círculo 115: Centro (84, 104)
+Círculo 116: Centro (108, -184)
+Círculo 117: Centro (140, 32)
+Círculo 118: Centro (180, 80)
+Círculo 119: Centro (196, -80)
+Círculo 120: Centro (228, 56)
+Círculo 121: Centro (-20, 48)
+Círculo 122: Centro (60, 8)
+Círculo 123: Centro (-92, 40)
+Círculo 124: Centro (-116, 32)
+Círculo 125: Centro (-60, -80)
+Círculo 126: Centro (116, 56)
+Círculo 127: Centro (-100, 16)
+Círculo 128: Centro (12, -88)
+Círculo 129: Centro (124, 72)
+Círculo 130: Centro (-100, -88)
+Círculo 131: Centro (60, -80)
+Círculo 132: Centro (-164, -96)
+Círculo 133: Centro (-84, 136)
+Círculo 134: Centro (44, -136)
+Círculo 135: Centro (116, -8)
+Círculo 136: Centro (-140, -24)
+Círculo 137: Centro (-124, -120)
+Círculo 138: Centro (-108, 104)
+Círculo 139: Centro (-12, -160)
+Círculo 140: Centro (4, -176)
+Círculo 141: Centro (28, 152)
+Círculo 142: Centro (-148, 80)
+Círculo 143: Centro (-108, 208)
+Círculo 144: Centro (-92, -136)
+Círculo 145: Centro (-44, -136)
+Círculo 146: Centro (28, 176)
+Círculo 147: Centro (68, -168)
+Círculo 148: Centro (84, 112)
+Círculo 149: Centro (108, -176)
+Círculo 150: Centro (140, 40)
+Círculo 151: Centro (180, 88)
+Círculo 152: Centro (196, -72)
+Círculo 153: Centro (228, 64)

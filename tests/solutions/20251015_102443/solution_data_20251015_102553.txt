@@ -1,0 +1,71 @@
+=== RESULTADOS DA SOLUÇÃO ===
+Timestamp: 20251015_102553
+Número de pontos: 43
+Número de círculos: 16
+Raio dos círculos: 75
+Cobertura mínima: 2
+Distância mínima entre círculos: 2.91
+Tempo de execução: 3.56 segundos
+
+=== PONTOS ===
+Ponto 1: (93.87, -64.61) - Cobertura: 4
+Ponto 2: (-10.9, 46.06) - Cobertura: 3
+Ponto 3: (-154.08, 128.28) - Cobertura: 2
+Ponto 4: (-12.37, -133.97) - Cobertura: 2
+Ponto 5: (-137.64, -39.53) - Cobertura: 3
+Ponto 6: (-67.69, -98.29) - Cobertura: 3
+Ponto 7: (63.11, 184.94) - Cobertura: 2
+Ponto 8: (-55.65, -85.16) - Cobertura: 3
+Ponto 9: (115.56, -42.32) - Cobertura: 4
+Ponto 10: (-25.26, -82.14) - Cobertura: 3
+Ponto 11: (-42.35, -40.07) - Cobertura: 2
+Ponto 12: (15.22, -19.22) - Cobertura: 4
+Ponto 13: (-63.74, 31.61) - Cobertura: 4
+Ponto 14: (78.09, -47.27) - Cobertura: 4
+Ponto 15: (32.17, -3.67) - Cobertura: 3
+Ponto 16: (4.19, -24.64) - Cobertura: 4
+Ponto 17: (34.08, 36.42) - Cobertura: 2
+Ponto 18: (90.28, -0.82) - Cobertura: 4
+Ponto 19: (47.32, -114.72) - Cobertura: 4
+Ponto 20: (-4.79, 84.96) - Cobertura: 2
+Ponto 21: (-26.02, -7.95) - Cobertura: 4
+Ponto 22: (2.93, -83.43) - Cobertura: 2
+Ponto 23: (3.78, 27.75) - Cobertura: 3
+Ponto 24: (-44.22, -44.37) - Cobertura: 2
+Ponto 25: (-71.61, 2.8) - Cobertura: 4
+Ponto 26: (40.11, -101.77) - Cobertura: 4
+Ponto 27: (-24.32, 106.47) - Cobertura: 2
+Ponto 28: (11.06, 153.06) - Cobertura: 2
+Ponto 29: (-57.63, 17.41) - Cobertura: 4
+Ponto 30: (35.1, -38.6) - Cobertura: 2
+Ponto 31: (-90.67, 34.86) - Cobertura: 2
+Ponto 32: (-18.88, -2.12) - Cobertura: 4
+Ponto 33: (-29.83, 14.58) - Cobertura: 4
+Ponto 34: (71.97, 12.61) - Cobertura: 3
+Ponto 35: (87.68, -117.57) - Cobertura: 2
+Ponto 36: (10.68, 3.27) - Cobertura: 3
+Ponto 37: (12.21, 39.63) - Cobertura: 3
+Ponto 38: (25.27, 76.29) - Cobertura: 2
+Ponto 39: (6.46, -45.9) - Cobertura: 3
+Ponto 40: (134.7, 2.33) - Cobertura: 3
+Ponto 41: (13.86, 9.26) - Cobertura: 3
+Ponto 42: (74.48, -35.67) - Cobertura: 4
+Ponto 43: (-85.07, 39.15) - Cobertura: 4
+
+=== CÍRCULOS ===
+Círculo 1: Centro (-12, -133)
+Círculo 2: Centro (-12, -133)
+Círculo 3: Centro (116, -42)
+Círculo 4: Centro (116, -42)
+Círculo 5: Centro (-138, -40)
+Círculo 6: Centro (-138, -40)
+Círculo 7: Centro (-11, 46)
+Círculo 8: Centro (-11, 46)
+Círculo 9: Centro (-154, 128)
+Círculo 10: Centro (-154, 128)
+Círculo 11: Centro (63, 184)
+Círculo 12: Centro (63, 184)
+Círculo 13: Centro (-67, -33)
+Círculo 14: Centro (-52, 1)
+Círculo 15: Centro (80, -75)
+Círculo 16: Centro (80, -48)
