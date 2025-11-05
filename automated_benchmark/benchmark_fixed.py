@@ -17,7 +17,7 @@ from pathlib import Path
 # ==================== CONFIGURAÇÕES ====================
 
 TIMEOUT_KILL = 4200  # 1h10min
-MAX_N = 20
+MAX_N = 150
 MIN_COVERAGE_RANGE = (1, 5)
 REPEATS_PER_INSTANCE = 5
 
