@@ -291,9 +291,6 @@ subject to {
     // RESTRIÇÃO PRINCIPAL: Cada círculo de âncora DEVE cobrir sua âncora designada
     forall(k in CirculosAncora) {
         pontoCoberto[circuloParaAncora[k]][k] == 1;
-        
-        if(minCoverage > 1 && k < numCirculosAncora && circuloParaAncora[k] == circuloParaAncora[k+1])
-       	    (centroX[k] < centroX[k+1] || (centroX[k] == centroX[k+1] && centroY[k] <= centroY[k+1]));
     }
     
     // ===== RESTRIÇÕES DE COBERTURA =====

@@ -291,14 +291,9 @@ subject to {
     // RESTRIÇÃO PRINCIPAL: Cada círculo de âncora DEVE cobrir sua âncora designada
     forall(k in CirculosAncora) {
         pontoCoberto[circuloParaAncora[k]][k] == 1;
-    }
-    
-    // QUEBRA DE SIMETRIA INTRA-ÂNCORA: 
-    // Círculos dedicados à mesma âncora são ordenados lexicograficamente
-    forall(k in CirculosAncora : k < numCirculosAncora) {
-        (circuloParaAncora[k] != circuloParaAncora[k+1]) || 
-        (centroX[k] < centroX[k+1] || 
-         (centroX[k] == centroX[k+1] && centroY[k] <= centroY[k+1]));
+        
+        if(minCoverage > 1 && k < numCirculosAncora && circuloParaAncora[k] == circuloParaAncora[k+1])
+       	    (centroX[k] < centroX[k+1] || (centroX[k] == centroX[k+1] && centroY[k] <= centroY[k+1]));
     }
     
     // ===== RESTRIÇÕES DE COBERTURA =====
@@ -332,13 +327,6 @@ subject to {
     // Círculos adicionais são usados em ordem
     forall(k in CirculosAdicionais : k < totalCirculos) {
         useCirculo[k] >= useCirculo[k+1];
-    }
-    
-    // Ordenação lexicográfica dos centros dos círculos adicionais
-    forall(k in CirculosAdicionais : k < totalCirculos) {
-        (useCirculo[k] == 0 || useCirculo[k+1] == 0) || 
-        (centroX[k] < centroX[k+1] || 
-            (centroX[k] == centroX[k+1] && centroY[k] <= centroY[k+1]));
     }
 }
 

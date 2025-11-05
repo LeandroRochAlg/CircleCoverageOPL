@@ -19,13 +19,10 @@ execute CP_CONFIG {
     cp.param.timeLimit = 3600;
     cp.param.logVerbosity = "Quiet";
     cp.param.Workers = 1;
-    writeln("=== EXEMPLO MODULAR REAL ===");
-    writeln("Ajuste Fino: " + ajusteFino);
-    writeln("Step Inteligente: " + stepInteligente);
 }
 
 // Include heuristic
-include "modular_heuristic4.mod";
+include "modular_heuristic3.mod";
 
 // Usa o resultado da heurística para definir o range (mais conservador)
 int maxCirculos = circulosUsados;

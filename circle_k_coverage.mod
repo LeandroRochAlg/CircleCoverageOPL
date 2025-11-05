@@ -39,8 +39,9 @@ dvar boolean pontoCoberto[Pontos][Circulos];    // 1 se o ponto p é coberto pel
 // dvar boolean pontoNaBorda[Pontos][Circulos];    // 1 se o ponto p está na borda do círculo k
 
 execute {
-    cp.param.timeLimit=10800;
-    cp.param.logPeriod=100000;
+    cp.param.timeLimit=3600;
+    cp.param.logVerbosity = "Quiet";
+    cp.param.workers = 1;
 }
 
 // Função objetivo: minimizar número de círculos usados
