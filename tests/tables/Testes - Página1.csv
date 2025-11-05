@@ -1,0 +1,9 @@
+,CP ótimo,,,Heurística 3 + CP,,,Heurística 4 + CP,,,CP pontos fixos + quebra entre,,,CP pontos fixos + quebra intra,,,CP pontos fixos + quebra entre + intra,,,,,,Teste 1,Teste 2,Teste 3,Teste 4,Teste 5
+,numCirculos,tempo,resultado,numCirculos,tempo,resultado,numCirculos,tempo,resultado,numCirculos,tempo,resultado,numCirculos,tempo,resultado,numCirculos,tempo,resultado,,,nClientes,109,39,243,110,406
+Teste 1,27,"3605,68",visualization_20251103_180517.png,Sem resultado,Sem resultado,Sem resultado,Sem resultado,Sem resultado,Sem resultado,23,"682,81",visualization_20251103_230842.png,23,"105,56",visualization_20251103_232706.png,23,"247,23",visualization_20251103_233553.png,,,raio,"59,1","40,1","22,6","47,4","12,4"
+Teste 2,10,"248,68",visualization_20251104_000826.png,10,"20,17",visualization_20251104_001445.png,10,"21,54",visualization_20251104_001940.png,10,"4,07",visualization_20251104_002326.png,10,"6,07",visualization_20251104_002536.png,10,"14,12",visualization_20251104_002754.png,,,minDistCirculos,"2,25","1,82","1,36","1,85","2,11"
+Teste 3,Sem resultado,Sem resultado,Sem resultado,Sem resultado,Sem resultado,Sem resultado,Sem resultado,Sem resultado,Sem resultado,Sem resultado,Sem resultado,Sem resultado,84,"3616,49",visualization_20251104_142526.png,Sem resultado,Sem resultado,Sem resultado,,,minCoverage,2,3,2,2,2
+Teste 4,25,"3605,45",visualization_20251104_170020.png,Sem resultado,Sem resultado,Sem resultado,Sem resultado,Sem resultado,Sem resultado,23,"95,1",visualization_20251104_190202.png,23,"197,94",visualization_20251104_190910.png,23,"1830,76",visualization_20251104_194125.png,,,minX,-192,-43,-184,-194,-174
+,,,,,,,,,,,,,,,,,,,,,minY,-282,-61,-179,-162,-186
+,,,,,,,,,,,,,,,,,,,,,maxX,267,70,216,195,174
+,,,,,,,,,,,,,,,,,,,,,maxY,169,46,195,183,178
