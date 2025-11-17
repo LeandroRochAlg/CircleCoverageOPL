@@ -1,0 +1,193 @@
+instance_id,config,repeat,numCirculos,tempo,visualization,status
+Instance_20251105_001505,Teste1,1,15,319.58,visualization_20251105_002025.png,SUCCESS
+Instance_20251105_001505,Teste2,1,15,33.13,visualization_20251105_002103.png,SUCCESS
+Instance_20251105_001505,Teste3,1,15,35.63,visualization_20251105_002140.png,SUCCESS
+Instance_20251105_001505,Teste4,1,15,0.50,visualization_20251105_002143.png,SUCCESS
+Instance_20251105_001505,Teste5,1,15,3.03,visualization_20251105_002149.png,SUCCESS
+Instance_20251105_001505,Teste6,1,15,7.74,visualization_20251105_002200.png,SUCCESS
+Instance_20251105_001505,Teste1,2,15,291.17,visualization_20251105_002653.png,SUCCESS
+Instance_20251105_001505,Teste2,2,15,35.42,visualization_20251105_002730.png,SUCCESS
+Instance_20251105_001505,Teste3,2,15,30.75,visualization_20251105_002807.png,SUCCESS
+Instance_20251105_001505,Teste4,2,15,0.59,visualization_20251105_002809.png,SUCCESS
+Instance_20251105_001505,Teste5,2,15,1.63,visualization_20251105_002812.png,SUCCESS
+Instance_20251105_001505,Teste6,2,15,4.28,visualization_20251105_002818.png,SUCCESS
+Instance_20251105_001505,Teste1,3,15,165.29,visualization_20251105_003104.png,SUCCESS
+Instance_20251105_001505,Teste2,3,15,20.23,visualization_20251105_003125.png,SUCCESS
+Instance_20251105_001505,Teste3,3,15,21.94,visualization_20251105_003149.png,SUCCESS
+Instance_20251105_001505,Teste4,3,15,0.46,visualization_20251105_003151.png,SUCCESS
+Instance_20251105_001505,Teste5,3,15,2.10,visualization_20251105_003155.png,SUCCESS
+Instance_20251105_001505,Teste6,3,15,4.26,visualization_20251105_003200.png,SUCCESS
+Instance_20251105_001505,Teste1,4,15,167.62,visualization_20251105_003449.png,SUCCESS
+Instance_20251105_001505,Teste2,4,15,18.46,visualization_20251105_003509.png,SUCCESS
+Instance_20251105_001505,Teste3,4,15,20.77,visualization_20251105_003531.png,SUCCESS
+Instance_20251105_001505,Teste4,4,15,0.57,visualization_20251105_003532.png,SUCCESS
+Instance_20251105_001505,Teste5,4,15,1.50,visualization_20251105_003535.png,SUCCESS
+Instance_20251105_001505,Teste6,4,15,3.31,visualization_20251105_003539.png,SUCCESS
+Instance_20251105_001505,Teste1,5,15,151.93,visualization_20251105_003813.png,SUCCESS
+Instance_20251105_001505,Teste2,5,15,18.94,visualization_20251105_003833.png,SUCCESS
+Instance_20251105_001505,Teste3,5,15,19.81,visualization_20251105_003854.png,SUCCESS
+Instance_20251105_001505,Teste4,5,15,0.37,visualization_20251105_003855.png,SUCCESS
+Instance_20251105_001505,Teste5,5,15,1.32,visualization_20251105_003858.png,SUCCESS
+Instance_20251105_001505,Teste6,5,15,3.38,visualization_20251105_003902.png,SUCCESS
+Instance_20251105_003914,Teste1,1,13,2554.50,visualization_20251105_012148.png,SUCCESS
+Instance_20251105_003914,Teste2,1,Sem resultado,Sem resultado,Sem resultado,NO_SOLUTION
+Instance_20251105_003914,Teste3,1,Sem resultado,Sem resultado,Sem resultado,NO_SOLUTION
+Instance_20251105_003914,Teste4,1,13,31.61,visualization_20251105_012424.png,SUCCESS
+Instance_20251105_003914,Teste5,1,13,40.39,visualization_20251105_012505.png,SUCCESS
+Instance_20251105_003914,Teste6,1,13,1147.36,visualization_20251105_014414.png,SUCCESS
+Instance_20251105_003914,Teste1,2,13,2387.44,visualization_20251105_022402.png,SUCCESS
+Instance_20251105_003914,Teste2,2,Sem resultado,Sem resultado,Sem resultado,NO_SOLUTION
+Instance_20251105_003914,Teste3,2,Sem resultado,Sem resultado,Sem resultado,NO_SOLUTION
+Instance_20251105_003914,Teste4,2,13,31.99,visualization_20251105_022625.png,SUCCESS
+Instance_20251105_003914,Teste5,2,13,39.71,visualization_20251105_022706.png,SUCCESS
+Instance_20251105_003914,Teste6,2,13,1094.86,visualization_20251105_024522.png,SUCCESS
+Instance_20251105_003914,Teste1,3,13,2386.55,visualization_20251105_032510.png,SUCCESS
+Instance_20251105_003914,Teste2,3,Sem resultado,Sem resultado,Sem resultado,NO_SOLUTION
+Instance_20251105_003914,Teste3,3,Sem resultado,Sem resultado,Sem resultado,NO_SOLUTION
+Instance_20251105_003914,Teste4,3,13,31.61,visualization_20251105_032733.png,SUCCESS
+Instance_20251105_003914,Teste5,3,13,39.93,visualization_20251105_032814.png,SUCCESS
+Instance_20251105_003914,Teste6,3,13,1100.35,visualization_20251105_034636.png,SUCCESS
+Instance_20251105_003914,Teste1,4,13,2395.39,visualization_20251105_042632.png,SUCCESS
+Instance_20251105_003914,Teste2,4,Sem resultado,Sem resultado,Sem resultado,NO_SOLUTION
+Instance_20251105_003914,Teste3,4,Sem resultado,Sem resultado,Sem resultado,NO_SOLUTION
+Instance_20251105_003914,Teste4,4,13,31.47,visualization_20251105_042856.png,SUCCESS
+Instance_20251105_003914,Teste5,4,13,40.52,visualization_20251105_042937.png,SUCCESS
+Instance_20251105_003914,Teste6,4,13,1096.64,visualization_20251105_044755.png,SUCCESS
+Instance_20251105_003914,Teste1,5,13,2395.29,visualization_20251105_052752.png,SUCCESS
+Instance_20251105_003914,Teste2,5,Sem resultado,Sem resultado,Sem resultado,NO_SOLUTION
+Instance_20251105_003914,Teste3,5,Sem resultado,Sem resultado,Sem resultado,NO_SOLUTION
+Instance_20251105_003914,Teste4,5,13,31.26,visualization_20251105_053016.png,SUCCESS
+Instance_20251105_003914,Teste5,5,13,40.33,visualization_20251105_053057.png,SUCCESS
+Instance_20251105_003914,Teste6,5,13,1105.08,visualization_20251105_054923.png,SUCCESS
+Instance_20251105_054935,Teste1,1,17,3600.55,visualization_20251105_064935.png,SUCCESS
+Instance_20251105_054935,Teste2,1,Sem resultado,Sem resultado,Sem resultado,NO_SOLUTION
+Instance_20251105_054935,Teste3,1,Sem resultado,Sem resultado,Sem resultado,NO_SOLUTION
+Instance_20251105_054935,Teste4,1,17,21.34,visualization_20251105_065046.png,SUCCESS
+Instance_20251105_054935,Teste5,1,17,19.43,visualization_20251105_065107.png,SUCCESS
+Instance_20251105_054935,Teste6,1,17,3.21,visualization_20251105_065111.png,SUCCESS
+Instance_20251105_054935,Teste1,2,17,3600.50,visualization_20251105_075113.png,SUCCESS
+Instance_20251105_054935,Teste2,2,Sem resultado,Sem resultado,Sem resultado,NO_SOLUTION
+Instance_20251105_054935,Teste3,2,Sem resultado,Sem resultado,Sem resultado,NO_SOLUTION
+Instance_20251105_054935,Teste4,2,17,21.36,visualization_20251105_075223.png,SUCCESS
+Instance_20251105_054935,Teste5,2,17,19.49,visualization_20251105_075244.png,SUCCESS
+Instance_20251105_054935,Teste6,2,17,3.31,visualization_20251105_075249.png,SUCCESS
+Instance_20251105_054935,Teste1,3,17,3600.62,visualization_20251105_085251.png,SUCCESS
+Instance_20251105_054935,Teste2,3,Sem resultado,Sem resultado,Sem resultado,NO_SOLUTION
+Instance_20251105_054935,Teste3,3,Sem resultado,Sem resultado,Sem resultado,NO_SOLUTION
+Instance_20251105_054935,Teste4,3,17,21.00,visualization_20251105_085402.png,SUCCESS
+Instance_20251105_054935,Teste5,3,17,19.73,visualization_20251105_085423.png,SUCCESS
+Instance_20251105_054935,Teste6,3,17,3.11,visualization_20251105_085427.png,SUCCESS
+Instance_20251105_054935,Teste1,4,17,3601.22,visualization_20251105_095430.png,SUCCESS
+Instance_20251105_054935,Teste2,4,Sem resultado,Sem resultado,Sem resultado,NO_SOLUTION
+Instance_20251105_054935,Teste3,4,Sem resultado,Sem resultado,Sem resultado,NO_SOLUTION
+Instance_20251105_054935,Teste4,4,17,44.52,visualization_20251105_095641.png,SUCCESS
+Instance_20251105_054935,Teste5,4,17,44.91,visualization_20251105_095729.png,SUCCESS
+Instance_20251105_054935,Teste6,4,17,6.83,visualization_20251105_095740.png,SUCCESS
+Instance_20251105_054935,Teste1,5,17,3602.09,visualization_20251105_105745.png,SUCCESS
+Instance_20251105_054935,Teste2,5,Sem resultado,Sem resultado,Sem resultado,NO_SOLUTION
+Instance_20251105_054935,Teste3,5,Sem resultado,Sem resultado,Sem resultado,NO_SOLUTION
+Instance_20251105_054935,Teste4,5,17,43.14,visualization_20251105_105937.png,SUCCESS
+Instance_20251105_054935,Teste5,5,17,26.67,visualization_20251105_110009.png,SUCCESS
+Instance_20251105_054935,Teste6,5,17,3.81,visualization_20251105_110015.png,SUCCESS
+Instance_20251105_110027,Teste1,1,16,3601.80,visualization_20251105_120029.png,SUCCESS
+Instance_20251105_110027,Teste2,1,Sem resultado,Sem resultado,Sem resultado,NO_SOLUTION
+Instance_20251105_110027,Teste3,1,Sem resultado,Sem resultado,Sem resultado,NO_SOLUTION
+Instance_20251105_110027,Teste4,1,16,234.55,visualization_20251105_120526.png,SUCCESS
+Instance_20251105_110027,Teste5,1,16,70.54,visualization_20251105_120638.png,SUCCESS
+Instance_20251105_110027,Teste6,1,16,79.69,visualization_20251105_120759.png,SUCCESS
+Instance_20251105_110027,Teste1,2,16,3602.03,visualization_20251105_130803.png,SUCCESS
+Instance_20251105_110027,Teste2,2,Sem resultado,Sem resultado,Sem resultado,NO_SOLUTION
+Instance_20251105_110027,Teste3,2,Sem resultado,Sem resultado,Sem resultado,NO_SOLUTION
+Instance_20251105_110027,Teste4,2,16,349.51,visualization_20251105_131530.png,SUCCESS
+Instance_20251105_110027,Teste5,2,16,147.57,visualization_20251105_131759.png,SUCCESS
+Instance_20251105_110027,Teste6,2,16,118.41,visualization_20251105_132001.png,SUCCESS
+Instance_20251105_110027,Teste1,3,16,3603.11,visualization_20251105_142007.png,SUCCESS
+Instance_20251105_110027,Teste2,3,Sem resultado,Sem resultado,Sem resultado,NO_SOLUTION
+Instance_20251105_110027,Teste3,3,Sem resultado,Sem resultado,Sem resultado,NO_SOLUTION
+Instance_20251105_110027,Teste4,3,16,319.18,visualization_20251105_142646.png,SUCCESS
+Instance_20251105_110027,Teste5,3,16,94.61,visualization_20251105_142823.png,SUCCESS
+Instance_20251105_110027,Teste6,3,16,104.51,visualization_20251105_143010.png,SUCCESS
+Instance_20251105_110027,Teste1,4,16,3605.46,visualization_20251105_153018.png,SUCCESS
+Instance_20251105_110027,Teste2,4,Sem resultado,Sem resultado,Sem resultado,NO_SOLUTION
+Instance_20251105_110027,Teste3,4,Sem resultado,Sem resultado,Sem resultado,NO_SOLUTION
+Instance_20251105_110027,Teste4,4,16,394.80,visualization_20251105_153814.png,SUCCESS
+Instance_20251105_110027,Teste5,4,16,117.90,visualization_20251105_154014.png,SUCCESS
+Instance_20251105_110027,Teste6,4,16,137.11,visualization_20251105_154233.png,SUCCESS
+Instance_20251105_110027,Teste1,5,16,3604.79,visualization_20251105_164239.png,SUCCESS
+Instance_20251105_110027,Teste2,5,Sem resultado,Sem resultado,Sem resultado,NO_SOLUTION
+Instance_20251105_110027,Teste3,5,Sem resultado,Sem resultado,Sem resultado,NO_SOLUTION
+Instance_20251105_110027,Teste4,5,16,347.24,visualization_20251105_165004.png,SUCCESS
+Instance_20251105_110027,Teste5,5,16,118.80,visualization_20251105_165205.png,SUCCESS
+Instance_20251105_110027,Teste6,5,16,118.38,visualization_20251105_165406.png,SUCCESS
+Instance_20251105_165417,Teste1,1,24,3602.40,visualization_20251105_175420.png,SUCCESS
+Instance_20251105_165417,Teste2,1,Sem resultado,Sem resultado,Sem resultado,NO_SOLUTION
+Instance_20251105_165417,Teste3,1,Sem resultado,Sem resultado,Sem resultado,NO_SOLUTION
+Instance_20251105_165417,Teste4,1,22,1744.56,visualization_20251105_182410.png,SUCCESS
+Instance_20251105_165417,Teste5,1,22,3600.77,visualization_20251105_192412.png,SUCCESS
+Instance_20251105_165417,Teste6,1,Sem resultado,Sem resultado,Sem resultado,NO_SOLUTION
+Instance_20251105_165417,Teste1,2,24,3602.89,visualization_20251105_212418.png,SUCCESS
+Instance_20251105_165417,Teste2,2,Sem resultado,Sem resultado,Sem resultado,NO_SOLUTION
+Instance_20251105_165417,Teste3,2,Sem resultado,Sem resultado,Sem resultado,NO_SOLUTION
+Instance_20251105_165417,Teste4,2,22,3131.48,visualization_20251105_221736.png,SUCCESS
+Instance_20251105_165417,Teste5,2,22,3600.72,visualization_20251105_231739.png,SUCCESS
+Instance_20251105_165417,Teste6,2,Sem resultado,Sem resultado,Sem resultado,NO_SOLUTION
+Instance_20251105_165417,Teste1,3,24,3602.32,visualization_20251106_011744.png,SUCCESS
+Instance_20251105_165417,Teste2,3,Sem resultado,Sem resultado,Sem resultado,NO_SOLUTION
+Instance_20251105_165417,Teste3,3,Sem resultado,Sem resultado,Sem resultado,NO_SOLUTION
+Instance_20251105_165417,Teste4,3,22,2623.67,visualization_20251106_020217.png,SUCCESS
+Instance_20251105_165417,Teste5,3,22,3600.97,visualization_20251106_030221.png,SUCCESS
+Instance_20251105_165417,Teste6,3,Sem resultado,Sem resultado,Sem resultado,NO_SOLUTION
+Instance_20251105_165417,Teste1,4,24,3601.30,visualization_20251106_050225.png,SUCCESS
+Instance_20251105_165417,Teste2,4,Sem resultado,Sem resultado,Sem resultado,NO_SOLUTION
+Instance_20251105_165417,Teste3,4,Sem resultado,Sem resultado,Sem resultado,NO_SOLUTION
+Instance_20251105_165417,Teste4,4,22,1633.36,visualization_20251106_053021.png,SUCCESS
+Instance_20251105_165417,Teste5,4,22,3600.41,visualization_20251106_063023.png,SUCCESS
+Instance_20251105_165417,Teste6,4,Sem resultado,Sem resultado,Sem resultado,NO_SOLUTION
+Instance_20251105_165417,Teste1,5,24,3601.41,visualization_20251106_083026.png,SUCCESS
+Instance_20251105_165417,Teste2,5,Sem resultado,Sem resultado,Sem resultado,NO_SOLUTION
+Instance_20251105_165417,Teste3,5,Sem resultado,Sem resultado,Sem resultado,NO_SOLUTION
+Instance_20251105_165417,Teste4,5,22,1638.66,visualization_20251106_085827.png,SUCCESS
+Instance_20251105_165417,Teste5,5,22,3601.05,visualization_20251106_095830.png,SUCCESS
+Instance_20251105_165417,Teste6,5,Sem resultado,Sem resultado,Sem resultado,NO_SOLUTION
+Instance_20251106_105847,Teste1,1,17,3600.52,visualization_20251106_115848.png,SUCCESS
+Instance_20251106_105847,Teste2,1,17,152.34,visualization_20251106_120121.png,SUCCESS
+Instance_20251106_105847,Teste3,1,17,172.46,visualization_20251106_120416.png,SUCCESS
+Instance_20251106_105847,Teste4,1,17,5.96,visualization_20251106_120423.png,SUCCESS
+Instance_20251106_105847,Teste5,1,17,2.68,visualization_20251106_120427.png,SUCCESS
+Instance_20251106_105847,Teste6,1,17,2.41,visualization_20251106_120431.png,SUCCESS
+Instance_20251106_105847,Teste1,2,17,3600.60,visualization_20251106_130434.png,SUCCESS
+Instance_20251106_105847,Teste2,2,17,109.48,visualization_20251106_130624.png,SUCCESS
+Instance_20251106_105847,Teste3,2,17,187.32,visualization_20251106_130933.png,SUCCESS
+Instance_20251106_105847,Teste4,2,17,5.16,visualization_20251106_130939.png,SUCCESS
+Instance_20251106_105847,Teste5,2,17,2.38,visualization_20251106_130943.png,SUCCESS
+Instance_20251106_105847,Teste6,2,17,1.72,visualization_20251106_130946.png,SUCCESS
+Instance_20251106_105847,Teste1,3,17,3600.46,visualization_20251106_140947.png,SUCCESS
+Instance_20251106_105847,Teste2,3,17,108.53,visualization_20251106_141137.png,SUCCESS
+Instance_20251106_105847,Teste3,3,17,164.45,visualization_20251106_141423.png,SUCCESS
+Instance_20251106_105847,Teste4,3,17,4.34,visualization_20251106_141428.png,SUCCESS
+Instance_20251106_105847,Teste5,3,17,1.62,visualization_20251106_141431.png,SUCCESS
+Instance_20251106_105847,Teste6,3,17,1.18,visualization_20251106_141433.png,SUCCESS
+Instance_20251106_105847,Teste1,4,17,3600.61,visualization_20251106_151434.png,SUCCESS
+Instance_20251106_105847,Teste2,4,17,153.80,visualization_20251106_151709.png,SUCCESS
+Instance_20251106_105847,Teste3,4,17,251.93,visualization_20251106_152122.png,SUCCESS
+Instance_20251106_105847,Teste4,4,17,4.74,visualization_20251106_152128.png,SUCCESS
+Instance_20251106_105847,Teste5,4,17,2.52,visualization_20251106_152132.png,SUCCESS
+Instance_20251106_105847,Teste6,4,17,1.57,visualization_20251106_152134.png,SUCCESS
+Instance_20251106_105847,Teste1,5,17,3600.74,visualization_20251106_162136.png,SUCCESS
+Instance_20251106_105847,Teste2,5,17,220.04,visualization_20251106_162518.png,SUCCESS
+Instance_20251106_105847,Teste3,5,17,282.92,visualization_20251106_163003.png,SUCCESS
+Instance_20251106_105847,Teste4,5,17,6.44,visualization_20251106_163013.png,SUCCESS
+Instance_20251106_105847,Teste5,5,17,2.69,visualization_20251106_163017.png,SUCCESS
+Instance_20251106_105847,Teste6,5,17,3.45,visualization_20251106_163022.png,SUCCESS
+Instance_20251106_163034,Teste1,1,Sem resultado,Sem resultado,Sem resultado,NO_SOLUTION
+Instance_20251106_163034,Teste2,1,Sem resultado,Sem resultado,Sem resultado,NO_SOLUTION
+Instance_20251106_163034,Teste3,1,Sem resultado,Sem resultado,Sem resultado,NO_SOLUTION
+Instance_20251106_163034,Teste4,1,26,2231.02,visualization_20251106_181131.png,SUCCESS
+Instance_20251106_163034,Teste5,1,26,3251.69,visualization_20251106_190546.png,SUCCESS
+Instance_20251106_163034,Teste6,1,26,3165.35,visualization_20251106_195838.png,SUCCESS
+Instance_20251106_163034,Teste1,2,Sem resultado,Sem resultado,Sem resultado,NO_SOLUTION
+Instance_20251106_163034,Teste2,2,Sem resultado,Sem resultado,Sem resultado,NO_SOLUTION
+Instance_20251106_163034,Teste3,2,Sem resultado,Sem resultado,Sem resultado,NO_SOLUTION
+Instance_20251106_163034,Teste4,2,26,2353.14,visualization_20251106_213926.png,SUCCESS
+Instance_20251106_163034,Teste5,2,27,3601.17,visualization_20251106_223930.png,SUCCESS
+Instance_20251106_163034,Teste6,2,Sem resultado,Sem resultado,Sem resultado,NO_SOLUTION

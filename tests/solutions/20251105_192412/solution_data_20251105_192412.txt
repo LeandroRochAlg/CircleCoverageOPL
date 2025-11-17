@@ -1,0 +1,119 @@
+=== RESULTADOS DA SOLUÇÃO ===
+Timestamp: 20251105_192412
+Número de pontos: 85
+Número de círculos: 22
+Raio dos círculos: 59.9
+Cobertura mínima: 4
+Distância mínima entre círculos: 2.88
+Tempo de execução: 3600.77 segundos
+
+=== PONTOS ===
+Ponto 1: (-76.27, 34.11) - Cobertura: 6
+Ponto 2: (-3.75, 23.26) - Cobertura: 7
+Ponto 3: (46.69, 8.27) - Cobertura: 4
+Ponto 4: (-41.44, 22.35) - Cobertura: 6
+Ponto 5: (-67.73, 43.28) - Cobertura: 6
+Ponto 6: (-89.79, 82.23) - Cobertura: 4
+Ponto 7: (0.76, -77.74) - Cobertura: 4
+Ponto 8: (-2.71, 7.77) - Cobertura: 6
+Ponto 9: (16.78, -84.11) - Cobertura: 4
+Ponto 10: (-53.78, -80.45) - Cobertura: 4
+Ponto 11: (-6.19, 23.94) - Cobertura: 7
+Ponto 12: (-85.69, 84.37) - Cobertura: 4
+Ponto 13: (-61.92, -44.24) - Cobertura: 5
+Ponto 14: (-41.82, -101.25) - Cobertura: 4
+Ponto 15: (-14.08, 51.03) - Cobertura: 7
+Ponto 16: (115.26, 120.91) - Cobertura: 4
+Ponto 17: (-61.63, 49.11) - Cobertura: 6
+Ponto 18: (94.17, -79.17) - Cobertura: 4
+Ponto 19: (-112.73, 44.87) - Cobertura: 4
+Ponto 20: (2.5, 27.09) - Cobertura: 6
+Ponto 21: (17.87, -67.5) - Cobertura: 4
+Ponto 22: (20.63, 37.86) - Cobertura: 4
+Ponto 23: (-53.69, -104.21) - Cobertura: 4
+Ponto 24: (17.39, 50.55) - Cobertura: 6
+Ponto 25: (69.75, 41.4) - Cobertura: 6
+Ponto 26: (-77.1, -13.68) - Cobertura: 4
+Ponto 27: (26.22, 75.57) - Cobertura: 6
+Ponto 28: (49.97, 136.77) - Cobertura: 4
+Ponto 29: (-28.96, -43.27) - Cobertura: 4
+Ponto 30: (18.19, -1.59) - Cobertura: 4
+Ponto 31: (17.96, 10.64) - Cobertura: 4
+Ponto 32: (18.62, -75.6) - Cobertura: 4
+Ponto 33: (-73.97, 18.76) - Cobertura: 6
+Ponto 34: (165.93, -67.66) - Cobertura: 4
+Ponto 35: (77.41, 19.11) - Cobertura: 4
+Ponto 36: (79.12, -45.53) - Cobertura: 5
+Ponto 37: (-102.44, -4.39) - Cobertura: 4
+Ponto 38: (-1.31, -8.35) - Cobertura: 6
+Ponto 39: (47.75, -20.83) - Cobertura: 4
+Ponto 40: (-75.15, -6.72) - Cobertura: 4
+Ponto 41: (5.95, 50.58) - Cobertura: 4
+Ponto 42: (-58.18, 3.46) - Cobertura: 6
+Ponto 43: (-36.18, -40.97) - Cobertura: 5
+Ponto 44: (-24.6, -31.85) - Cobertura: 5
+Ponto 45: (-26.03, 20.15) - Cobertura: 8
+Ponto 46: (39.71, -45.73) - Cobertura: 4
+Ponto 47: (57.25, 4.04) - Cobertura: 4
+Ponto 48: (-76.61, -53.65) - Cobertura: 4
+Ponto 49: (-82.86, -23.18) - Cobertura: 4
+Ponto 50: (97.71, -30.29) - Cobertura: 6
+Ponto 51: (-35.99, 34.94) - Cobertura: 7
+Ponto 52: (-2.47, 71.37) - Cobertura: 4
+Ponto 53: (-108.35, 47.12) - Cobertura: 4
+Ponto 54: (-65.81, -52.25) - Cobertura: 5
+Ponto 55: (55.82, -28.65) - Cobertura: 5
+Ponto 56: (64.19, 94.09) - Cobertura: 4
+Ponto 57: (-66.99, -20.61) - Cobertura: 4
+Ponto 58: (126.2, 124.92) - Cobertura: 4
+Ponto 59: (2.56, -59.24) - Cobertura: 4
+Ponto 60: (47.98, -6.37) - Cobertura: 4
+Ponto 61: (-84.41, 27.6) - Cobertura: 6
+Ponto 62: (-43, -30.99) - Cobertura: 6
+Ponto 63: (107.51, -33.36) - Cobertura: 4
+Ponto 64: (-63.6, -98.03) - Cobertura: 4
+Ponto 65: (31.64, -93.87) - Cobertura: 4
+Ponto 66: (44.25, 100.77) - Cobertura: 4
+Ponto 67: (-84.37, -13.56) - Cobertura: 4
+Ponto 68: (19.89, 7.9) - Cobertura: 4
+Ponto 69: (11.31, -15.93) - Cobertura: 7
+Ponto 70: (-5.19, -1.9) - Cobertura: 5
+Ponto 71: (26.49, -27.43) - Cobertura: 6
+Ponto 72: (53.85, -44.63) - Cobertura: 4
+Ponto 73: (-57.27, -16.04) - Cobertura: 5
+Ponto 74: (62.14, -22.21) - Cobertura: 8
+Ponto 75: (37.09, 14.42) - Cobertura: 4
+Ponto 76: (-14.34, 46.02) - Cobertura: 7
+Ponto 77: (-32.59, 3.13) - Cobertura: 8
+Ponto 78: (110.9, 24.23) - Cobertura: 4
+Ponto 79: (-2.49, 19.6) - Cobertura: 8
+Ponto 80: (-106.14, 20.13) - Cobertura: 4
+Ponto 81: (24.83, -41.94) - Cobertura: 6
+Ponto 82: (-42.21, -64.46) - Cobertura: 4
+Ponto 83: (14.94, 77.06) - Cobertura: 4
+Ponto 84: (-70.66, 26.13) - Cobertura: 6
+Ponto 85: (16.74, -70.79) - Cobertura: 4
+
+=== CÍRCULOS ===
+Círculo 1: Centro (-25, -75)
+Círculo 2: Centro (-21, -66)
+Círculo 3: Centro (-18, -61)
+Círculo 4: Centro (-13, -67)
+Círculo 5: Centro (107, -61)
+Círculo 6: Centro (107, -58)
+Círculo 7: Centro (116, -35)
+Círculo 8: Centro (119, -35)
+Círculo 9: Centro (-62, 16)
+Círculo 10: Centro (-40, 54)
+Círculo 11: Centro (19, 18)
+Círculo 12: Centro (22, 18)
+Círculo 13: Centro (72, 101)
+Círculo 14: Centro (73, 98)
+Círculo 15: Centro (73, 104)
+Círculo 16: Centro (73, 107)
+Círculo 17: Centro (-61, 30)
+Círculo 18: Centro (-41, 57)
+Círculo 19: Centro (-77, -3)
+Círculo 20: Centro (53, 9)
+Círculo 21: Centro (-65, 29)
+Círculo 22: Centro (54, 6)

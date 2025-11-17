@@ -1,0 +1,52 @@
+=== RESULTADOS DA SOLUÇÃO ===
+Timestamp: 20251105_003833
+Número de pontos: 25
+Número de círculos: 15
+Raio dos círculos: 75
+Cobertura mínima: 5
+Distância mínima entre círculos: 1.26
+Tempo de execução: 18.94 segundos
+
+=== PONTOS ===
+Ponto 1: (49.56, -53.38) - Cobertura: 7
+Ponto 2: (-43.02, -21.93) - Cobertura: 9
+Ponto 3: (-90.33, -50.77) - Cobertura: 5
+Ponto 4: (23.52, -104.08) - Cobertura: 5
+Ponto 5: (85.38, 41.06) - Cobertura: 5
+Ponto 6: (-52.39, 63.38) - Cobertura: 5
+Ponto 7: (-130.83, -26.16) - Cobertura: 5
+Ponto 8: (-66.97, -25.51) - Cobertura: 10
+Ponto 9: (93.81, -53.6) - Cobertura: 5
+Ponto 10: (16.01, -63.93) - Cobertura: 10
+Ponto 11: (25.85, 54.07) - Cobertura: 5
+Ponto 12: (24.28, -31.98) - Cobertura: 10
+Ponto 13: (-10.62, -74.84) - Cobertura: 5
+Ponto 14: (6.89, -52.88) - Cobertura: 10
+Ponto 15: (31.38, -10.48) - Cobertura: 7
+Ponto 16: (66.82, 65.68) - Cobertura: 5
+Ponto 17: (-63.45, -35.32) - Cobertura: 10
+Ponto 18: (-78.94, 102.93) - Cobertura: 5
+Ponto 19: (-40.17, -69.97) - Cobertura: 5
+Ponto 20: (-80.89, 11.47) - Cobertura: 5
+Ponto 21: (89.8, 17.3) - Cobertura: 5
+Ponto 22: (6.3, -10.03) - Cobertura: 9
+Ponto 23: (-69.47, 81.55) - Cobertura: 5
+Ponto 24: (-10.52, -0.83) - Cobertura: 8
+Ponto 25: (2.55, -16.8) - Cobertura: 10
+
+=== CÍRCULOS ===
+Círculo 1: Centro (-96, 30)
+Círculo 2: Centro (-96, 32)
+Círculo 3: Centro (-94, 30)
+Círculo 4: Centro (-91, 29)
+Círculo 5: Centro (-82, 28)
+Círculo 6: Centro (-27, -55)
+Círculo 7: Centro (-26, -80)
+Círculo 8: Centro (-24, -68)
+Círculo 9: Centro (-24, -61)
+Círculo 10: Centro (-23, -79)
+Círculo 11: Centro (53, -8)
+Círculo 12: Centro (54, -7)
+Círculo 13: Centro (55, -8)
+Círculo 14: Centro (55, -6)
+Círculo 15: Centro (55, -4)
