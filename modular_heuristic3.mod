@@ -33,35 +33,27 @@ execute MODULAR_HEURISTIC {
     }
     var numCentrosUsados = 0;
     
-    // PRÉ-COMPUTAÇÃO: Cria estrutura de cobertura usando stepInteligente
-    writeln("Calculando matriz de cobertura (step=" + stepInteligente + ")...");
-    
-    // Calcula número de posições com step
-    var numPosX = Math.ceil((maxX - minX) / stepInteligente) + 1;
-    var numPosY = Math.ceil((maxY - minY) / stepInteligente) + 1;
-    var totalPosicoesStep = numPosX * numPosY;
-    writeln("Posições com step: " + totalPosicoesStep + " (ao invés de " + totalPosicoes + ")");
+    // PRÉ-COMPUTAÇÃO: Cria estrutura de cobertura para cada posição da grade
+    writeln("Calculando matriz de cobertura...");
     
     // Arrays separados para armazenar informações de cada posição
-    var posicaoX = new Array(totalPosicoesStep);
-    var posicaoY = new Array(totalPosicoesStep);
-    var posicaoNumPontos = new Array(totalPosicoesStep);
-    var posicaoPontos = new Array(totalPosicoesStep); // Array de arrays com os pontos cobertos por cada posição
+    var posicaoX = new Array(totalPosicoes);
+    var posicaoY = new Array(totalPosicoes);
+    var posicaoNumPontos = new Array(totalPosicoes);
+    var posicaoPontos = new Array(totalPosicoes); // Array de arrays com os pontos cobertos por cada posição
     var indicePosicao = 0;
     
-    // Para cada posição possível na grade (usando stepInteligente)
-    for(var gx = minX; gx <= maxX; gx += stepInteligente) {
-        for(var gy = minY; gy <= maxY; gy += stepInteligente) {
-            var gxInt = Math.round(gx);
-            var gyInt = Math.round(gy);
+    // Para cada posição possível na grade
+    for(var gx = minX; gx <= maxX; gx++) {
+        for(var gy = minY; gy <= maxY; gy++) {
             // Lista de pontos que seriam cobertos se um círculo fosse colocado em (gx, gy)
             var pontosCobertos = new Array(n);
             var numPontosCobertos = 0;
             
             // Verifica quais pontos estariam dentro do círculo
             for(var ponto = 1; ponto <= n; ponto++) {
-                var distX = x[ponto] - gxInt;
-                var distY = y[ponto] - gyInt;
+                var distX = x[ponto] - gx;
+                var distY = y[ponto] - gy;
                 
                 if(distX*distX + distY*distY <= r*r) {
                     pontosCobertos[numPontosCobertos] = ponto;
@@ -70,17 +62,16 @@ execute MODULAR_HEURISTIC {
             }
             
             // Armazena a informação de cobertura para esta posição
-            posicaoX[indicePosicao] = gxInt;
-            posicaoY[indicePosicao] = gyInt;
+            posicaoX[indicePosicao] = gx;
+            posicaoY[indicePosicao] = gy;
             posicaoNumPontos[indicePosicao] = numPontosCobertos;
             posicaoPontos[indicePosicao] = pontosCobertos;
             indicePosicao++;
         }
         
-        // Progresso a cada 50 steps
-        var stepsProcessados = Math.round((gx - minX) / stepInteligente);
-        if(stepsProcessados % 50 == 0 && stepsProcessados > 0) {
-            writeln("  Processando coluna gx=" + Math.round(gx) + "/" + maxX + " (step " + stepsProcessados + ")");
+        // Progresso a cada 50 colunas
+        if((gx - minX) % 50 == 0) {
+            writeln("  Processando coluna " + gx + " de " + maxX);
         }
     }
     

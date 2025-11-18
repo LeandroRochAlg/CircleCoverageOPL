@@ -29,39 +29,31 @@ execute MODULAR_HEURISTIC {
     var numCentrosUsados = 0;
     
     // PRÉ-COMPUTAÇÃO: construir mapa de posição -> lista de pontos cobertos
-    writeln("Pré-computando cobertura por posição (via pontos, step=" + stepInteligente + ")...");
+    writeln("Pré-computando cobertura por posição (via pontos)...");
     
-    // Calcula número de posições com step
-    var numPosX = Math.ceil((maxX - minX) / stepInteligente) + 1;
-    var numPosY = Math.ceil((maxY - minY) / stepInteligente) + 1;
-    var totalPosicoesStep = numPosX * numPosY;
-    var larguraYStep = numPosY;
-    writeln("Posições com step: " + totalPosicoesStep + " (ao invés de " + totalPosicoes + ")");
+    var larguraY = (maxY - minY + 1);
     
-    var posicaoX = new Array(totalPosicoesStep);
-    var posicaoY = new Array(totalPosicoesStep);
-    var posicaoNumPontos = new Array(totalPosicoesStep);
-    var posicaoPontos = new Array(totalPosicoesStep); // cada elemento é um array dinâmico
+    var posicaoX = new Array(totalPosicoes);
+    var posicaoY = new Array(totalPosicoes);
+    var posicaoNumPontos = new Array(totalPosicoes);
+    var posicaoPontos = new Array(totalPosicoes); // cada elemento é um array dinâmico
     
     // Inicializa metadados de cada posição uma única vez
     var idx = 0;
-    for (var gx = minX; gx <= maxX; gx += stepInteligente) {
-        for (var gy = minY; gy <= maxY; gy += stepInteligente) {
-            var gxInt = Math.round(gx);
-            var gyInt = Math.round(gy);
-            posicaoX[idx] = gxInt;
-            posicaoY[idx] = gyInt;
+    for (var gx = minX; gx <= maxX; gx++) {
+        for (var gy = minY; gy <= maxY; gy++) {
+            posicaoX[idx] = gx;
+            posicaoY[idx] = gy;
             posicaoNumPontos[idx] = 0;
             posicaoPontos[idx] = new Array(); // dinâmico
             idx++;
         }
-        var stepsProcessados = Math.round((gx - minX) / stepInteligente);
-        if (stepsProcessados % 50 == 0 && stepsProcessados > 0) {
-            writeln("  Inicializadas posições até coluna gx=" + Math.round(gx) + "/" + maxX);
+        if (((gx - minX) % 100) == 0) {
+            writeln("  Inicializadas posições até coluna gx=" + gx + "/" + maxX);
         }
     }
     
-    // Para cada ponto, agregamos o ponto em todas as posições (gx,gy) dentro do raio r (usando step)
+    // Para cada ponto, agregamos o ponto em todas as posições (gx,gy) dentro do raio r
     var raio = Math.ceil(r);
     for (var p = 1; p <= n; p++) {
         var xP = Math.round(x[p]);
@@ -72,22 +64,16 @@ execute MODULAR_HEURISTIC {
         var yIni = Math.max(minY, yP - raio);
         var yFim = Math.min(maxY, yP + raio);
         
-        for (var gx = xIni; gx <= xFim; gx += stepInteligente) {
-            var gxInt = Math.round(gx);
-            var dx = gxInt - xP;
+        for (var gx = xIni; gx <= xFim; gx++) {
+            var dx = gx - xP;
             var dx2 = dx*dx;
-            for (var gy = yIni; gy <= yFim; gy += stepInteligente) {
-                var gyInt = Math.round(gy);
-                var dy = gyInt - yP;
+            for (var gy = yIni; gy <= yFim; gy++) {
+                var dy = gy - yP;
                 if (dx2 + dy*dy <= r*r) {
-                    var indiceX = Math.round((gxInt - minX) / stepInteligente);
-                    var indiceY = Math.round((gyInt - minY) / stepInteligente);
-                    var indicePos = indiceX * larguraYStep + indiceY;
-                    if (indicePos >= 0 && indicePos < totalPosicoesStep) {
-                        var k = posicaoNumPontos[indicePos];
-                        posicaoPontos[indicePos][k] = p; // append
-                        posicaoNumPontos[indicePos] = k + 1;
-                    }
+                    var indicePos = (gx - minX) * larguraY + (gy - minY);
+                    var k = posicaoNumPontos[indicePos];
+                    posicaoPontos[indicePos][k] = p; // append
+                    posicaoNumPontos[indicePos] = k + 1;
                 }
             }
         }
@@ -115,28 +101,23 @@ execute MODULAR_HEURISTIC {
             var yIni = Math.max(minY, yP - raio);
             var yFim = Math.min(maxY, yP + raio);
             
-            for (var gx = xIni; gx <= xFim; gx += stepInteligente) {
-                var gxInt = Math.round(gx);
-                var dx = gxInt - xP;
+            for (var gx = xIni; gx <= xFim; gx++) {
+                var dx = gx - xP;
                 var dx2 = dx*dx;
-                for (var gy = yIni; gy <= yFim; gy += stepInteligente) {
-                    var gyInt = Math.round(gy);
-                    var dy = gyInt - yP;
+                for (var gy = yIni; gy <= yFim; gy++) {
+                    var dy = gy - yP;
                     if (dx2 + dy*dy > r*r) continue; // fora do círculo
                     
                     // Verifica distância mínima dos círculos já colocados
                     var muitoProximo = false;
                     for (var i = 0; i < numCentrosUsados; i++) {
-                        var ddx = gxInt - centrosUsadosX[i];
-                        var ddy = gyInt - centrosUsadosY[i];
+                        var ddx = gx - centrosUsadosX[i];
+                        var ddy = gy - centrosUsadosY[i];
                         if (ddx*ddx + ddy*ddy < minDistCirculos*minDistCirculos) { muitoProximo = true; break; }
                     }
                     if (muitoProximo) continue;
                     
-                    var indiceX = Math.round((gxInt - minX) / stepInteligente);
-                    var indiceY = Math.round((gyInt - minY) / stepInteligente);
-                    var indiceBusca = indiceX * larguraYStep + indiceY;
-                    if (indiceBusca < 0 || indiceBusca >= totalPosicoesStep) continue;
+                    var indiceBusca = (gx - minX) * larguraY + (gy - minY);
                     
                     // Cobertura potencial baseada no que falta em cada ponto coberto por (gx,gy)
                     var coberturaCalculada = 0;
@@ -152,8 +133,8 @@ execute MODULAR_HEURISTIC {
                        (coberturaCalculada == melhorCobertura && desempate > melhorDesempate)) {
                         melhorCobertura = coberturaCalculada;
                         melhorDesempate = desempate;
-                        melhorPosX = gxInt;
-                        melhorPosY = gyInt;
+                        melhorPosX = gx;
+                        melhorPosY = gy;
                         melhorIndicePosicao = indiceBusca;
                     }
                 }
