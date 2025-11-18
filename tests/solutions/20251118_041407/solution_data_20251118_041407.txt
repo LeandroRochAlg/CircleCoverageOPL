@@ -1,0 +1,39 @@
+=== RESULTADOS DA SOLUÇÃO ===
+Timestamp: 20251118_041407
+Número de pontos: 18
+Número de círculos: 9
+Raio dos círculos: 83.8
+Cobertura mínima: 3
+Distância mínima entre círculos: 9.73
+Tempo de execução: 4.36 segundos
+
+=== PONTOS ===
+Ponto 1: (11.07, 63.94) - Cobertura: 6
+Ponto 2: (-60.8, -101.15) - Cobertura: 3
+Ponto 3: (89.58, 73.29) - Cobertura: 3
+Ponto 4: (12.2, 15.23) - Cobertura: 8
+Ponto 5: (-7.22, 57.58) - Cobertura: 6
+Ponto 6: (-101.63, 64.92) - Cobertura: 3
+Ponto 7: (-101.4, -48.57) - Cobertura: 3
+Ponto 8: (58.32, -100.75) - Cobertura: 3
+Ponto 9: (-24.48, -84) - Cobertura: 3
+Ponto 10: (53.44, -31.95) - Cobertura: 6
+Ponto 11: (36.4, 6.08) - Cobertura: 8
+Ponto 12: (120.15, -9.07) - Cobertura: 3
+Ponto 13: (-62.2, -25.69) - Cobertura: 5
+Ponto 14: (118.53, 65.48) - Cobertura: 3
+Ponto 15: (12.42, -20.3) - Cobertura: 9
+Ponto 16: (-39.44, 83.75) - Cobertura: 3
+Ponto 17: (92.62, -37.75) - Cobertura: 4
+Ponto 18: (-75.07, 6.4) - Cobertura: 3
+
+=== CÍRCULOS ===
+Círculo 1: Centro (-55, 18)
+Círculo 2: Centro (-46, 3)
+Círculo 3: Centro (-46, 14)
+Círculo 4: Centro (1, -59)
+Círculo 5: Centro (12, -60)
+Círculo 6: Centro (17, -72)
+Círculo 7: Centro (52, 32)
+Círculo 8: Centro (64, 29)
+Círculo 9: Centro (66, 42)

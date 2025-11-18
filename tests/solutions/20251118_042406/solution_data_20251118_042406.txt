@@ -1,0 +1,60 @@
+=== RESULTADOS DA SOLUÇÃO ===
+Timestamp: 20251118_042406
+Número de pontos: 40
+Número de círculos: 8
+Raio dos círculos: 60.6
+Cobertura mínima: 2
+Distância mínima entre círculos: 6.07
+Tempo de execução: 8.98 segundos
+
+=== PONTOS ===
+Ponto 1: (-35.67, 13.6) - Cobertura: 3
+Ponto 2: (37.95, -51.26) - Cobertura: 2
+Ponto 3: (42.24, 7.74) - Cobertura: 4
+Ponto 4: (7.25, -68.15) - Cobertura: 2
+Ponto 5: (25.89, 26.01) - Cobertura: 2
+Ponto 6: (7.36, 6.21) - Cobertura: 2
+Ponto 7: (-40.13, 88.77) - Cobertura: 3
+Ponto 8: (-101.52, 51.26) - Cobertura: 2
+Ponto 9: (-43.21, 62.64) - Cobertura: 3
+Ponto 10: (23.8, -48.91) - Cobertura: 2
+Ponto 11: (43.39, -58.54) - Cobertura: 2
+Ponto 12: (-48.36, -1.17) - Cobertura: 2
+Ponto 13: (-67, 63.15) - Cobertura: 2
+Ponto 14: (50.27, 13.4) - Cobertura: 4
+Ponto 15: (-108.87, -78.03) - Cobertura: 2
+Ponto 16: (53.47, 4) - Cobertura: 3
+Ponto 17: (3.15, -47.86) - Cobertura: 2
+Ponto 18: (-8.88, 10.82) - Cobertura: 3
+Ponto 19: (-35.58, -42.89) - Cobertura: 2
+Ponto 20: (-20.85, -106.68) - Cobertura: 2
+Ponto 21: (-49.18, -69.96) - Cobertura: 2
+Ponto 22: (-37.98, 42.45) - Cobertura: 3
+Ponto 23: (79.97, -73.21) - Cobertura: 2
+Ponto 24: (-3.19, 5.71) - Cobertura: 2
+Ponto 25: (60.54, -41.36) - Cobertura: 2
+Ponto 26: (-59.37, -56.95) - Cobertura: 2
+Ponto 27: (-44.56, -96.1) - Cobertura: 2
+Ponto 28: (-71.3, 57) - Cobertura: 2
+Ponto 29: (-102.48, 69.97) - Cobertura: 2
+Ponto 30: (24.91, -68.42) - Cobertura: 2
+Ponto 31: (40.84, -55.07) - Cobertura: 2
+Ponto 32: (-10.74, -57.13) - Cobertura: 2
+Ponto 33: (-14.14, -51.34) - Cobertura: 2
+Ponto 34: (48.65, -35.54) - Cobertura: 2
+Ponto 35: (95.2, -78) - Cobertura: 2
+Ponto 36: (3.84, 68.34) - Cobertura: 3
+Ponto 37: (-33.63, 21.87) - Cobertura: 3
+Ponto 38: (-64.59, -81.08) - Cobertura: 2
+Ponto 39: (11.66, 80.79) - Cobertura: 2
+Ponto 40: (-79.36, 28.3) - Cobertura: 2
+
+=== CÍRCULOS ===
+Círculo 1: Centro (-69, -73)
+Círculo 2: Centro (-60, -64)
+Círculo 3: Centro (-55, 37)
+Círculo 4: Centro (-50, 47)
+Círculo 5: Centro (3, 49)
+Círculo 6: Centro (55, -34)
+Círculo 7: Centro (56, -42)
+Círculo 8: Centro (56, 41)

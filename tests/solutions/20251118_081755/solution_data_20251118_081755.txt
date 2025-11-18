@@ -1,0 +1,38 @@
+=== RESULTADOS DA SOLUÇÃO ===
+Timestamp: 20251118_081755
+Número de pontos: 20
+Número de círculos: 6
+Raio dos círculos: 89.6
+Cobertura mínima: 3
+Distância mínima entre círculos: 2.47
+Tempo de execução: 6.87 segundos
+
+=== PONTOS ===
+Ponto 1: (13.74, -26.12) - Cobertura: 6
+Ponto 2: (67.6, -4.57) - Cobertura: 6
+Ponto 3: (61.73, 40.96) - Cobertura: 3
+Ponto 4: (90.53, 17.62) - Cobertura: 3
+Ponto 5: (55.39, 67.4) - Cobertura: 3
+Ponto 6: (-14.43, 51.85) - Cobertura: 5
+Ponto 7: (84.1, 37.67) - Cobertura: 3
+Ponto 8: (-74.64, 24.7) - Cobertura: 3
+Ponto 9: (-31.69, -121.02) - Cobertura: 3
+Ponto 10: (15.47, 86.3) - Cobertura: 3
+Ponto 11: (6.04, -47.22) - Cobertura: 6
+Ponto 12: (23.14, -11.17) - Cobertura: 6
+Ponto 13: (-0.77, -23.67) - Cobertura: 6
+Ponto 14: (79.19, 58.72) - Cobertura: 3
+Ponto 15: (31.08, 0.04) - Cobertura: 6
+Ponto 16: (106.58, -14.78) - Cobertura: 3
+Ponto 17: (45.74, -104.31) - Cobertura: 3
+Ponto 18: (-1.64, -36.65) - Cobertura: 6
+Ponto 19: (-19.71, 36.95) - Cobertura: 5
+Ponto 20: (80.71, -26.52) - Cobertura: 5
+
+=== CÍRCULOS ===
+Círculo 1: Centro (-13, -37)
+Círculo 2: Centro (-8, -35)
+Círculo 3: Centro (11, 1)
+Círculo 4: Centro (26, -53)
+Círculo 5: Centro (26, -2)
+Círculo 6: Centro (26, 1)

@@ -1,0 +1,62 @@
+=== RESULTADOS DA SOLUÇÃO ===
+Timestamp: 20251118_071208
+Número de pontos: 34
+Número de círculos: 16
+Raio dos círculos: 79.2
+Cobertura mínima: 4
+Distância mínima entre círculos: 2.11
+Tempo de execução: 370.17 segundos
+
+=== PONTOS ===
+Ponto 1: (-114.17, 60.75) - Cobertura: 4
+Ponto 2: (3.74, -11.55) - Cobertura: 8
+Ponto 3: (-64.07, 64.02) - Cobertura: 6
+Ponto 4: (46.14, 158.94) - Cobertura: 4
+Ponto 5: (-76.54, 5.54) - Cobertura: 8
+Ponto 6: (-51.86, 60.64) - Cobertura: 6
+Ponto 7: (-1, 9) - Cobertura: 6
+Ponto 8: (-20.42, -19.87) - Cobertura: 7
+Ponto 9: (-77.97, 13.05) - Cobertura: 8
+Ponto 10: (139.24, -6.5) - Cobertura: 4
+Ponto 11: (25.41, -43.22) - Cobertura: 6
+Ponto 12: (-25.87, 6.33) - Cobertura: 8
+Ponto 13: (-59.1, -45.16) - Cobertura: 7
+Ponto 14: (-2.76, 32.69) - Cobertura: 7
+Ponto 15: (-80.74, -70.7) - Cobertura: 5
+Ponto 16: (26.35, -3.07) - Cobertura: 7
+Ponto 17: (57.29, 11.15) - Cobertura: 4
+Ponto 18: (20.36, 2.73) - Cobertura: 7
+Ponto 19: (41.74, -17.97) - Cobertura: 7
+Ponto 20: (97.81, -19.51) - Cobertura: 4
+Ponto 21: (10.28, -76.23) - Cobertura: 4
+Ponto 22: (58.92, 70.94) - Cobertura: 4
+Ponto 23: (-0.36, -78.53) - Cobertura: 4
+Ponto 24: (-74.8, 39.57) - Cobertura: 5
+Ponto 25: (-2.69, 85.28) - Cobertura: 5
+Ponto 26: (46.72, 45.83) - Cobertura: 4
+Ponto 27: (-7.63, -38.69) - Cobertura: 7
+Ponto 28: (-89.22, -62.5) - Cobertura: 6
+Ponto 29: (-11.67, -71.24) - Cobertura: 4
+Ponto 30: (9.74, 37.15) - Cobertura: 6
+Ponto 31: (35.03, -2.9) - Cobertura: 7
+Ponto 32: (58.15, -27.3) - Cobertura: 5
+Ponto 33: (-101.85, 75.16) - Cobertura: 4
+Ponto 34: (-55.75, 39.8) - Cobertura: 5
+
+=== CÍRCULOS ===
+Círculo 1: Centro (-64, -51)
+Círculo 2: Centro (-64, 6)
+Círculo 3: Centro (-61, 11)
+Círculo 4: Centro (-59, 9)
+Círculo 5: Centro (-59, 71)
+Círculo 6: Centro (-31, 150)
+Círculo 7: Centro (-29, 135)
+Círculo 8: Centro (-29, 153)
+Círculo 9: Centro (-29, -37)
+Círculo 10: Centro (-29, -20)
+Círculo 11: Centro (-20, 120)
+Círculo 12: Centro (-13, -30)
+Círculo 13: Centro (80, 42)
+Círculo 14: Centro (82, -1)
+Círculo 15: Centro (83, 4)
+Círculo 16: Centro (84, 1)

@@ -1,0 +1,62 @@
+=== RESULTADOS DA SOLUÇÃO ===
+Timestamp: 20251118_075202
+Número de pontos: 38
+Número de círculos: 12
+Raio dos círculos: 75.6
+Cobertura mínima: 3
+Distância mínima entre círculos: 7.28
+Tempo de execução: 177.82 segundos
+
+=== PONTOS ===
+Ponto 1: (-37.07, 114.67) - Cobertura: 3
+Ponto 2: (-76.91, -52.96) - Cobertura: 3
+Ponto 3: (-45.67, -1.35) - Cobertura: 6
+Ponto 4: (-100.95, 105.47) - Cobertura: 3
+Ponto 5: (68.27, 9.06) - Cobertura: 3
+Ponto 6: (-105.55, -47.56) - Cobertura: 3
+Ponto 7: (29.73, 39.43) - Cobertura: 3
+Ponto 8: (-72.95, 83.3) - Cobertura: 3
+Ponto 9: (-29.43, 93.73) - Cobertura: 3
+Ponto 10: (-79.34, 66.38) - Cobertura: 3
+Ponto 11: (58.67, -44.38) - Cobertura: 5
+Ponto 12: (-62.6, -70.3) - Cobertura: 3
+Ponto 13: (82.54, -90.76) - Cobertura: 3
+Ponto 14: (-52.5, -11.62) - Cobertura: 6
+Ponto 15: (11.46, -26.18) - Cobertura: 3
+Ponto 16: (-53.88, 76.75) - Cobertura: 3
+Ponto 17: (-24.91, -21.38) - Cobertura: 3
+Ponto 18: (73.65, 48.46) - Cobertura: 3
+Ponto 19: (-45.56, -71.09) - Cobertura: 3
+Ponto 20: (-29.41, 9.9) - Cobertura: 6
+Ponto 21: (-29.66, 89.03) - Cobertura: 3
+Ponto 22: (16.32, 26.8) - Cobertura: 3
+Ponto 23: (-2.67, -0.6) - Cobertura: 5
+Ponto 24: (2.11, -21.41) - Cobertura: 3
+Ponto 25: (-4.89, -18.74) - Cobertura: 4
+Ponto 26: (93.76, -37.69) - Cobertura: 3
+Ponto 27: (-46.5, 57.45) - Cobertura: 3
+Ponto 28: (-86.98, 89.77) - Cobertura: 3
+Ponto 29: (35.21, 100.25) - Cobertura: 3
+Ponto 30: (-81.36, -118.29) - Cobertura: 3
+Ponto 31: (3.72, 62.22) - Cobertura: 6
+Ponto 32: (5.68, 1.08) - Cobertura: 3
+Ponto 33: (-131.81, 38.6) - Cobertura: 3
+Ponto 34: (-27.65, -51.69) - Cobertura: 3
+Ponto 35: (10.9, -160.7) - Cobertura: 3
+Ponto 36: (72.61, -177.5) - Cobertura: 3
+Ponto 37: (22.91, -1.66) - Cobertura: 3
+Ponto 38: (-22.03, 19.97) - Cobertura: 4
+
+=== CÍRCULOS ===
+Círculo 1: Centro (-63, 44)
+Círculo 2: Centro (-62, -54)
+Círculo 3: Centro (-62, -63)
+Círculo 4: Centro (-60, -47)
+Círculo 5: Centro (-60, 58)
+Círculo 6: Centro (-57, 49)
+Círculo 7: Centro (36, -115)
+Círculo 8: Centro (43, -112)
+Círculo 9: Centro (43, 26)
+Círculo 10: Centro (60, 29)
+Círculo 11: Centro (64, -107)
+Círculo 12: Centro (73, 35)

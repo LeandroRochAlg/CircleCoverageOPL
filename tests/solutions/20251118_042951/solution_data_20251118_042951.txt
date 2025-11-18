@@ -1,0 +1,58 @@
+=== RESULTADOS DA SOLUÇÃO ===
+Timestamp: 20251118_042951
+Número de pontos: 38
+Número de círculos: 8
+Raio dos círculos: 66.8
+Cobertura mínima: 2
+Distância mínima entre círculos: 3.54
+Tempo de execução: 74.41 segundos
+
+=== PONTOS ===
+Ponto 1: (22.11, -107.99) - Cobertura: 2
+Ponto 2: (-41.92, 2.51) - Cobertura: 2
+Ponto 3: (17.47, 125.75) - Cobertura: 2
+Ponto 4: (51.87, -33.34) - Cobertura: 2
+Ponto 5: (4.73, -33.19) - Cobertura: 2
+Ponto 6: (-37.24, 39.18) - Cobertura: 2
+Ponto 7: (6.33, 12.77) - Cobertura: 3
+Ponto 8: (87.68, -77.61) - Cobertura: 2
+Ponto 9: (-6.25, 113.11) - Cobertura: 2
+Ponto 10: (8.82, -93.98) - Cobertura: 2
+Ponto 11: (29.31, 171.68) - Cobertura: 2
+Ponto 12: (56.91, -39.51) - Cobertura: 2
+Ponto 13: (-3.55, -25.84) - Cobertura: 3
+Ponto 14: (-61.77, -2.99) - Cobertura: 2
+Ponto 15: (69.22, 5.07) - Cobertura: 2
+Ponto 16: (60.5, 19.58) - Cobertura: 2
+Ponto 17: (-28.11, 60.48) - Cobertura: 2
+Ponto 18: (-17.08, 12.02) - Cobertura: 3
+Ponto 19: (-57.47, 29.24) - Cobertura: 2
+Ponto 20: (-5.06, -165.32) - Cobertura: 2
+Ponto 21: (32.1, -27.87) - Cobertura: 2
+Ponto 22: (-115.79, -17.05) - Cobertura: 2
+Ponto 23: (36.75, -32.42) - Cobertura: 2
+Ponto 24: (-33.58, -33.74) - Cobertura: 2
+Ponto 25: (-26.41, -1.97) - Cobertura: 2
+Ponto 26: (108.94, -11.25) - Cobertura: 2
+Ponto 27: (25.71, 19.77) - Cobertura: 2
+Ponto 28: (27.21, -23.29) - Cobertura: 2
+Ponto 29: (60.07, 67.39) - Cobertura: 3
+Ponto 30: (-12.53, 42.94) - Cobertura: 2
+Ponto 31: (13.88, -21.92) - Cobertura: 2
+Ponto 32: (71.58, -18.31) - Cobertura: 2
+Ponto 33: (63.72, 40.22) - Cobertura: 2
+Ponto 34: (-114.35, 44.04) - Cobertura: 2
+Ponto 35: (-13.45, -69.09) - Cobertura: 2
+Ponto 36: (-20.74, 13.19) - Cobertura: 2
+Ponto 37: (-30.99, -7.39) - Cobertura: 2
+Ponto 38: (-83.2, -71.6) - Cobertura: 2
+
+=== CÍRCULOS ===
+Círculo 1: Centro (-75, -7)
+Círculo 2: Centro (-60, 7)
+Círculo 3: Centro (-41, -120)
+Círculo 4: Centro (8, 109)
+Círculo 5: Centro (32, -113)
+Círculo 6: Centro (47, 13)
+Círculo 7: Centro (58, -19)
+Círculo 8: Centro (60, 113)
