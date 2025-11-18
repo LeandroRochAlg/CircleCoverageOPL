@@ -16,16 +16,16 @@ from pathlib import Path
 
 # ==================== CONFIGURAÇÕES ====================
 
-TIMEOUT_KILL = 4200  # 1h10min
-MAX_N = 200
+TIMEOUT_KILL = 960  # 1h10min
+MAX_N = 400
 MIN_COVERAGE_RANGE = (1, 4)
 REPEATS_PER_INSTANCE = 3
 
-TEST_CONFIGS = ["Teste2", "Teste3", "Teste4", "Teste5", "Teste6"]
+TEST_CONFIGS = ["Teste4", "Teste5", "Teste6"]
 
 SCRIPT_DIR = Path(__file__).parent
 PROJECT_DIR = SCRIPT_DIR.parent
-DAT_FILE = PROJECT_DIR / "circle_coverage.dat"
+DAT_FILE = PROJECT_DIR / "circle_coverage_fast.dat"
 SOLUTIONS_DIR = PROJECT_DIR / "tests" / "solutions"
 TABLES_DIR = PROJECT_DIR / "tests" / "tables"
 OPLRUN_PATH = r"C:\Program Files\IBM\ILOG\CPLEX_Studio2211\opl\bin\x64_win64\oplrun.exe"

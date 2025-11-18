@@ -23,7 +23,7 @@ include "common_base.mod";
 
 // Configuração CP
 execute CP_CONFIG {
-    cp.param.timeLimit = 3600;
+    cp.param.timeLimit = 900;
     cp.param.logVerbosity = "Quiet";
     cp.param.workers = 1;
     writeln("=== MODELO: ALOCAÇÃO DE CÍRCULOS COM RESTRIÇÕES DE ÂNCORA V4 ===");

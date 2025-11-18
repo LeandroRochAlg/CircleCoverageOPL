@@ -169,57 +169,57 @@
             <ref name="circle_k_coverage.mod" type="model">
 			</ref>
             			
-            <ref name="circle_coverage.dat" type="data">
+            <ref name="circle_coverage_slow.dat" type="data">
 			</ref>
             		
         </config>
         		
         <config default="false" name="Teste2" category="opl">
             			
-            <ref name="circle_coverage.dat" type="data">
+            <ref name="exemplo_modular_real.mod" type="model">
 			</ref>
             			
-            <ref name="exemplo_modular_real.mod" type="model">
+            <ref name="circle_coverage_slow.dat" type="data">
 			</ref>
             		
         </config>
         		
         <config default="false" name="Teste3" category="opl">
             			
-            <ref name="circle_coverage.dat" type="data">
+            <ref name="exemplo_modular_real2.mod" type="model">
 			</ref>
             			
-            <ref name="exemplo_modular_real2.mod" type="model">
+            <ref name="circle_coverage_slow.dat" type="data">
 			</ref>
             		
         </config>
         		
         <config default="false" name="Teste4" category="opl">
             			
-            <ref name="circle_coverage.dat" type="data">
+            <ref name="modelo_fix_circ_preprocessing_v4.mod" type="model">
 			</ref>
             			
-            <ref name="modelo_fix_circ_preprocessing_v4.mod" type="model">
+            <ref name="circle_coverage_fast.dat" type="data">
 			</ref>
             		
         </config>
         		
         <config default="false" name="Teste5" category="opl">
             			
-            <ref name="circle_coverage.dat" type="data">
+            <ref name="modelo_fix_circ_preprocessing_v5.mod" type="model">
 			</ref>
             			
-            <ref name="modelo_fix_circ_preprocessing_v5.mod" type="model">
+            <ref name="circle_coverage_fast.dat" type="data">
 			</ref>
             		
         </config>
         		
         <config default="false" name="Teste6" category="opl">
             			
-            <ref name="circle_coverage.dat" type="data">
+            <ref name="modelo_fix_circ_preprocessing_v6.mod" type="model">
 			</ref>
             			
-            <ref name="modelo_fix_circ_preprocessing_v6.mod" type="model">
+            <ref name="circle_coverage_fast.dat" type="data">
 			</ref>
             		
         </config>
