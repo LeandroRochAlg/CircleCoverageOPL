@@ -17,11 +17,11 @@ from pathlib import Path
 # ==================== CONFIGURAÇÕES ====================
 
 TIMEOUT_KILL = 4200  # 1h10min
-MAX_N = 150
-MIN_COVERAGE_RANGE = (1, 5)
-REPEATS_PER_INSTANCE = 5
+MAX_N = 200
+MIN_COVERAGE_RANGE = (1, 4)
+REPEATS_PER_INSTANCE = 3
 
-TEST_CONFIGS = ["Teste1", "Teste2", "Teste3", "Teste4", "Teste5", "Teste6"]
+TEST_CONFIGS = ["Teste2", "Teste3", "Teste4", "Teste5", "Teste6"]
 
 SCRIPT_DIR = Path(__file__).parent
 PROJECT_DIR = SCRIPT_DIR.parent
@@ -69,11 +69,18 @@ def calculate_parameters(n, points_x, points_y):
     area_height = max_y - min_y
     diagonal = np.sqrt(area_width**2 + area_height**2)
     
-    base_radius = max(10, min(75, diagonal / (n ** 0.5) * 1.5))
-    r = round(base_radius, 1)
+    # Raio aleatório com limites baseados na diagonal e número de pontos
+    base_radius = diagonal / (n ** 0.5) * 1.5
+    radius_min = max(10, base_radius * 0.6)  # 60% a 140% do valor base
+    radius_max = min(100, base_radius * 1.4)
+    r = round(random.uniform(radius_min, radius_max), 1)
     
     min_coverage = random.randint(*MIN_COVERAGE_RANGE)
-    min_dist_circles = round(random.uniform(1.0, min(3.0, r * 0.1)), 2)
+    
+    # min_dist_circles aleatório baseado no raio (entre 0.5% e 15% do raio)
+    dist_min = max(0.5, r * 0.005)
+    dist_max = min(10.0, r * 0.15)
+    min_dist_circles = round(random.uniform(dist_min, dist_max), 2)
     
     return r, min_coverage, min_dist_circles, min_x, max_x, min_y, max_y
 
