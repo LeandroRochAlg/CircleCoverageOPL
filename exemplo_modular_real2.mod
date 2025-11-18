@@ -11,7 +11,7 @@ using CP;
 include "common_base.mod";
 
 // Cálculo de ajuste fino, step e outros parâmetros
-float ajusteFino = 0.5;
+float ajusteFino = 0.75;
 float stepInteligente = ((r * sqrt(2) - minDistCirculos) / 2) * ajusteFino;
 
 // Configuração CP
