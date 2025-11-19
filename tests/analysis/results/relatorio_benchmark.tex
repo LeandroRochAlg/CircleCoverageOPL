@@ -1,0 +1,265 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[brazilian]{babel}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{float}
+\usepackage{geometry}
+\usepackage{hyperref}
+\usepackage{caption}
+
+\geometry{margin=2.5cm}
+
+\title{Relatório de Benchmark\\Circle Coverage Problem}
+\author{Análise Automatizada}
+\date{18 de November de 2025}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+\newpage
+
+\section{Resumo Executivo}
+
+Este relatório apresenta a análise detalhada dos resultados obtidos no benchmark automatizado 
+do problema Circle Coverage. O benchmark foi executado em 73 instâncias 
+distintas, testando 6 configurações diferentes, totalizando 788 execuções.
+
+\subsection{Estatísticas Gerais}
+
+\begin{itemize}
+    \item \textbf{Total de Instâncias:} 73
+    \item \textbf{Total de Execuções:} 788
+    \item \textbf{Configurações Testadas:} 6
+    \item \textbf{Taxa de Sucesso Global:} 89.0\%
+\end{itemize}
+
+\section{Resultados por Configuração}
+
+\subsection{Tabela Resumo}
+
+A Tabela~\ref{tab:resumo} apresenta as estatísticas de desempenho para cada configuração testada.
+
+\begin{table}[H]
+\centering
+\caption{Resumo de Desempenho por Configuração}
+\label{tab:resumo}
+\small
+\begin{tabular}{lrrrrrr}
+\toprule
+\textbf{Config} & \textbf{Sucesso} & \textbf{Taxa (\%)} & \textbf{Tempo Méd.} & \textbf{Tempo Med.} & \textbf{Círculos Méd.} & \textbf{Círculos Min-Max} \\
+\midrule
+Teste1 & 181/183 & 98.9 & 581.06s & 23.75s & 9.5 & 1-24 \\
+Teste2 & 152/183 & 83.1 & 37.82s & 11.34s & 8.5 & 1-17 \\
+Teste3 & 152/183 & 83.1 & 32.82s & 5.13s & 8.5 & 1-17 \\
+Teste4 & 74/80 & 92.5 & 292.08s & 9.39s & 14.1 & 4-26 \\
+Teste5 & 77/80 & 96.2 & 413.12s & 10.60s & 15.1 & 4-35 \\
+Teste6 & 65/79 & 82.3 & 160.00s & 3.45s & 13.0 & 4-26 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Análise Gráfica}
+
+\subsubsection{Taxa de Sucesso}
+
+A Figura~\ref{fig:taxa_sucesso} ilustra a taxa de sucesso de cada configuração. 
+Configurações com taxa inferior a 100\% indicam dificuldade em resolver todas as instâncias 
+dentro do tempo limite estabelecido.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{1_taxa_sucesso.png}
+\caption{Taxa de sucesso por configuração}
+\label{fig:taxa_sucesso}
+\end{figure}
+
+\subsubsection{Tempo de Execução}
+
+A Figura~\ref{fig:tempo} apresenta a análise de tempo de execução. O gráfico à esquerda 
+mostra o tempo médio, enquanto o gráfico à direita apresenta a distribuição completa 
+dos tempos através de boxplots (escala logarítmica).
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{2_tempo_execucao.png}
+\caption{Análise de tempo de execução}
+\label{fig:tempo}
+\end{figure}
+
+\subsubsection{Qualidade da Solução}
+
+A Figura~\ref{fig:qualidade} compara a qualidade das soluções obtidas por cada 
+configuração, medida pelo número de círculos necessários. Menores valores indicam 
+soluções mais eficientes.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\textwidth]{3_qualidade_solucao.png}
+\caption{Qualidade da solução (número de círculos)}
+\label{fig:qualidade}
+\end{figure}
+
+\section{Análise de Escalabilidade}
+
+A Figura~\ref{fig:escalabilidade} demonstra como o desempenho de cada configuração 
+varia em função do tamanho da instância (número de pontos $n$).
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{4_escalabilidade.png}
+\caption{Escalabilidade: tempo e círculos × tamanho da instância}
+\label{fig:escalabilidade}
+\end{figure}
+
+\section{Comparação Head-to-Head}
+
+\subsection{Speedup Relativo}
+
+A Figura~\ref{fig:speedup} mostra o speedup de cada configuração em relação ao 
+Teste1 (baseline). Valores menores que 1 indicam melhor desempenho.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{5_speedup_relativo.png}
+\caption{Speedup relativo ao Teste1 (baseline)}
+\label{fig:speedup}
+\end{figure}
+
+\subsection{Heatmap de Desempenho}
+
+A Figura~\ref{fig:heatmap} apresenta um heatmap normalizado do tempo de execução 
+para as primeiras 30 instâncias. Cores mais escuras (vermelhas) indicam pior desempenho 
+relativo naquela instância.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\textwidth]{6_heatmap_desempenho.png}
+\caption{Heatmap de desempenho normalizado}
+\label{fig:heatmap}
+\end{figure}
+
+\section{Análise Estatística}
+
+\subsection{Comparações Pareadas}
+
+A Figura~\ref{fig:comparacoes} apresenta os resultados dos testes estatísticos 
+Mann-Whitney U para comparações pareadas entre configurações. Barras vermelhas 
+indicam diferenças estatisticamente significativas ($p < 0.05$).
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{10_comparacoes_pareadas.png}
+\caption{Significância estatística das comparações pareadas}
+\label{fig:comparacoes}
+\end{figure}
+
+\subsection{Correlação entre Parâmetros}
+
+A Figura~\ref{fig:correlacao} mostra a matriz de correlação de Pearson entre 
+os principais parâmetros das instâncias e métricas de desempenho.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{11_correlacao_parametros.png}
+\caption{Matriz de correlação entre parâmetros}
+\label{fig:correlacao}
+\end{figure}
+
+\subsection{Variabilidade entre Repetições}
+
+A Figura~\ref{fig:variabilidade} ilustra o coeficiente de variação (CV) do tempo 
+de execução entre repetições da mesma configuração na mesma instância. Valores 
+menores indicam maior estabilidade.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{12_variabilidade_repeticoes.png}
+\caption{Variabilidade do tempo de execução entre repetições}
+\label{fig:variabilidade}
+\end{figure}
+
+\section{Análise de Instâncias}
+
+\subsection{Distribuição de Características}
+
+A Figura~\ref{fig:distribuicao} apresenta a distribuição das principais 
+características das instâncias testadas.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{13_distribuicao_caracteristicas.png}
+\caption{Distribuição das características das instâncias}
+\label{fig:distribuicao}
+\end{figure}
+
+\subsection{Instâncias Mais Difíceis}
+
+A Figura~\ref{fig:dificeis} identifica as instâncias mais desafiadoras, 
+tanto em termos de tempo de execução quanto de taxa de sucesso.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{14_instancias_dificeis.png}
+\caption{Instâncias mais difíceis}
+\label{fig:dificeis}
+\end{figure}
+
+\subsection{Relação Características × Tempo}
+
+A Figura~\ref{fig:carac_tempo} explora a relação entre diferentes características 
+das instâncias e o tempo de execução.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{15_caracteristicas_vs_tempo.png}
+\caption{Relação entre características e tempo de execução}
+\label{fig:carac_tempo}
+\end{figure}
+
+\subsection{Perfil de Complexidade}
+
+A Figura~\ref{fig:perfil} classifica as instâncias em categorias de dificuldade 
+e analisa as características médias de cada categoria.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{16_perfil_complexidade.png}
+\caption{Perfil de complexidade das instâncias}
+\label{fig:perfil}
+\end{figure}
+
+\section{Conclusões}
+
+\subsection{Principais Resultados}
+
+\begin{enumerate}
+\item \textbf{Configuração mais rápida:} Teste3 (tempo médio: 32.82s)
+\item \textbf{Maior taxa de sucesso:} Teste1 (98.9\%)
+\item \textbf{Melhor qualidade média:} Teste2 (8.5 círculos)
+\end{enumerate}
+
+\subsection{Recomendações}
+
+Com base nos resultados obtidos, recomenda-se:
+
+\begin{itemize}
+    \item Para instâncias pequenas (n $\leq$ 50): priorizar qualidade da solução
+    \item Para instâncias médias (50 < n $\leq$ 100): balancear tempo e qualidade
+    \item Para instâncias grandes (n > 100): priorizar tempo de execução
+    \item Considerar timeout adaptativo baseado no tamanho da instância
+\end{itemize}
+
+\section{Arquivos Gerados}
+
+Todos os dados e gráficos estão disponíveis no diretório \texttt{tests/analysis/results/}:
+
+\begin{itemize}
+    \item Gráficos: arquivos PNG em alta resolução (300 DPI)
+    \item Dados: arquivos CSV com estatísticas detalhadas
+    \item Este relatório: \texttt{relatorio\_benchmark.tex}
+\end{itemize}
+
+\end{document}

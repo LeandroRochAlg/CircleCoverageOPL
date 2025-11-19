@@ -1,0 +1,16 @@
+Comparação,Mediana 1,Mediana 2,Estatística U,p-valor,Significativo?,N1,N2
+Teste2 vs Teste3,11.34s,5.13s,15371.00,0.000001,Sim,152,152
+Teste1 vs Teste3,23.75s,5.13s,16983.00,0.000227,Sim,181,152
+Teste2 vs Teste6,11.34s,3.45s,6412.50,0.000512,Sim,152,65
+Teste1 vs Teste6,23.75s,3.45s,7348.50,0.002901,Sim,181,65
+Teste1 vs Teste2,23.75s,11.34s,15635.00,0.031818,Sim,181,152
+Teste1 vs Teste4,23.75s,9.39s,7753.50,0.048209,Sim,181,74
+Teste3 vs Teste4,5.13s,9.39s,4829.00,0.084996,Não,152,74
+Teste1 vs Teste5,23.75s,10.60s,7828.50,0.117084,Não,181,77
+Teste5 vs Teste6,10.60s,3.45s,2879.00,0.123647,Não,77,65
+Teste3 vs Teste5,5.13s,10.60s,5126.50,0.125835,Não,152,77
+Teste4 vs Teste6,9.39s,3.45s,2747.50,0.148815,Não,74,65
+Teste3 vs Teste6,5.13s,3.45s,5321.50,0.368485,Não,152,65
+Teste2 vs Teste5,11.34s,10.60s,6098.00,0.604222,Não,152,77
+Teste2 vs Teste4,11.34s,9.39s,5781.50,0.733584,Não,152,74
+Teste4 vs Teste5,9.39s,10.60s,2811.50,0.890457,Não,74,77

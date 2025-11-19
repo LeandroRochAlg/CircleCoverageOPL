@@ -1,0 +1,7 @@
+Configuração,Instâncias Testadas,Sucessos,Taxa Sucesso (%),n Mínimo,n Máximo,Tempo Médio (s),Tempo Mediana (s),Círculos Médio
+CP Puro,58,57,98.28,10,180,418.04,19.34,9.0
+Heurística 3 + CP,58,50,86.21,10,180,36.18,11.01,8.18
+Heurística 4 + CP,58,50,86.21,10,180,30.17,4.91,8.18
+CP Pontos Fixos + Quebra Entre,23,21,91.3,12,355,298.47,8.71,13.86
+CP Pontos Fixos + Quebra Intra,23,22,95.65,12,355,419.31,8.21,14.93
+CP Pontos Fixos + Quebra Entre+Intra,23,19,82.61,12,355,250.32,4.05,13.05

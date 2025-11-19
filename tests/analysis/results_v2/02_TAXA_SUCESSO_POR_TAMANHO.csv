@@ -1,0 +1,61 @@
+config,Faixa de Tamanho,Taxa Sucesso,Total Testado,Sucessos
+Teste1,"Pequena
+(≤25)",100.0,24.0,24.0
+Teste1,"Média
+(26-50)",100.0,28.0,28.0
+Teste1,"Grande
+(51-100)",100.0,3.0,3.0
+Teste1,"Muito Grande
+(101-200)",66.66666666666666,3.0,2.0
+Teste1,"Extra Grande
+(>200)",,,
+Teste2,"Pequena
+(≤25)",100.0,24.0,24.0
+Teste2,"Média
+(26-50)",89.28571428571429,28.0,25.0
+Teste2,"Grande
+(51-100)",0.0,3.0,0.0
+Teste2,"Muito Grande
+(101-200)",33.33333333333333,3.0,1.0
+Teste2,"Extra Grande
+(>200)",,,
+Teste3,"Pequena
+(≤25)",100.0,24.0,24.0
+Teste3,"Média
+(26-50)",89.28571428571429,28.0,25.0
+Teste3,"Grande
+(51-100)",0.0,3.0,0.0
+Teste3,"Muito Grande
+(101-200)",33.33333333333333,3.0,1.0
+Teste3,"Extra Grande
+(>200)",,,
+Teste4,"Pequena
+(≤25)",100.0,4.0,4.0
+Teste4,"Média
+(26-50)",100.0,2.0,2.0
+Teste4,"Grande
+(51-100)",100.0,7.0,7.0
+Teste4,"Muito Grande
+(101-200)",100.0,4.0,4.0
+Teste4,"Extra Grande
+(>200)",66.66666666666666,6.0,4.0
+Teste5,"Pequena
+(≤25)",100.0,4.0,4.0
+Teste5,"Média
+(26-50)",100.0,2.0,2.0
+Teste5,"Grande
+(51-100)",100.0,7.0,7.0
+Teste5,"Muito Grande
+(101-200)",100.0,4.0,4.0
+Teste5,"Extra Grande
+(>200)",83.33333333333334,6.0,5.0
+Teste6,"Pequena
+(≤25)",100.0,4.0,4.0
+Teste6,"Média
+(26-50)",100.0,2.0,2.0
+Teste6,"Grande
+(51-100)",85.71428571428571,7.0,6.0
+Teste6,"Muito Grande
+(101-200)",100.0,4.0,4.0
+Teste6,"Extra Grande
+(>200)",50.0,6.0,3.0

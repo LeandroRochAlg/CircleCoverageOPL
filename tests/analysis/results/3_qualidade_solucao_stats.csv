@@ -1,0 +1,7 @@
+config,numCirculos_num_mean,numCirculos_num_median,numCirculos_num_std,numCirculos_num_min,numCirculos_num_max
+Teste1,9.55,9.0,5.17,1.0,24.0
+Teste2,8.45,8.5,4.39,1.0,17.0
+Teste3,8.45,8.5,4.39,1.0,17.0
+Teste4,14.15,13.0,6.17,4.0,26.0
+Teste5,15.05,15.0,7.38,4.0,35.0
+Teste6,13.05,12.0,5.75,4.0,26.0
