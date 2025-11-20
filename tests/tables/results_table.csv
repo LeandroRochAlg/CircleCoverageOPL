@@ -190,7 +190,8 @@ Instance_20251106_163034,Teste2,2,Sem resultado,Sem resultado,Sem resultado,NO_S
 Instance_20251106_163034,Teste3,2,Sem resultado,Sem resultado,Sem resultado,NO_SOLUTION
 Instance_20251106_163034,Teste4,2,26,2353.14,visualization_20251106_213926.png,SUCCESS
 Instance_20251106_163034,Teste5,2,27,3601.17,visualization_20251106_223930.png,SUCCESS
-Instance_20251106_163034,Teste6,2,Sem resultado,Sem resultado,Sem resultado,NO_SOLUTIONInstance_20251118_011524,Teste1,1,12,988.48,visualization_20251118_013153.png,SUCCESS
+Instance_20251106_163034,Teste6,2,Sem resultado,Sem resultado,Sem resultado,NO_SOLUTION
+Instance_20251118_011524,Teste1,1,12,988.48,visualization_20251118_013153.png,SUCCESS
 Instance_20251118_011524,Teste2,1,12,39.09,visualization_20251118_013235.png,SUCCESS
 Instance_20251118_011524,Teste3,1,12,29.74,visualization_20251118_013306.png,SUCCESS
 Instance_20251118_011524,Teste1,2,12,405.75,visualization_20251118_013954.png,SUCCESS

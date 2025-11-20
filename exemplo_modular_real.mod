@@ -16,8 +16,8 @@ float stepInteligente = ((r * sqrt(2) - minDistCirculos) / 2) * ajusteFino;
 
 // Configuração CP
 execute CP_CONFIG {
-    cp.param.timeLimit = 900;
-    cp.param.logVerbosity = "Quiet";
+    cp.param.timeLimit = 3600;
+//    cp.param.logVerbosity = "Quiet";
     cp.param.Workers = 1;
 }
 

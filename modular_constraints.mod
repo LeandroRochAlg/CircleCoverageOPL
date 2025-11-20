@@ -45,11 +45,11 @@ subject to {
     }
     
     // Quebra de simetria adicional: ordenação dos centros para círculos usados
-    forall(k in 1..(maxCirculos-1)) {
-        // Se ambos os círculos k e k+1 estão sendo usados, então ordena
-        (useCirculo[k] == 0 || useCirculo[k+1] == 0) || 
-        (centroX[k] <= centroX[k+1]);
-    }
+//    forall(k in 1..(maxCirculos-1)) {
+//        // Se ambos os círculos k e k+1 estão sendo usados, então ordena
+//        (useCirculo[k] == 0 || useCirculo[k+1] == 0) || 
+//        (centroX[k] <= centroX[k+1]);
+//    }
     
     // INICIALIZAÇÃO INTELIGENTE: Sugere posições da heurística como ponto de partida
     // Permite flexibilidade para o CP otimizar a partir da solução heurística

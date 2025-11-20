@@ -169,7 +169,7 @@
             <ref name="circle_k_coverage.mod" type="model">
 			</ref>
             			
-            <ref name="circle_coverage_slow.dat" type="data">
+            <ref name="circle_coverage.dat" type="data">
 			</ref>
             		
         </config>
@@ -179,7 +179,7 @@
             <ref name="exemplo_modular_real.mod" type="model">
 			</ref>
             			
-            <ref name="circle_coverage_slow.dat" type="data">
+            <ref name="circle_coverage.dat" type="data">
 			</ref>
             		
         </config>
@@ -189,7 +189,7 @@
             <ref name="exemplo_modular_real2.mod" type="model">
 			</ref>
             			
-            <ref name="circle_coverage_slow.dat" type="data">
+            <ref name="circle_coverage.dat" type="data">
 			</ref>
             		
         </config>
@@ -199,7 +199,7 @@
             <ref name="modelo_fix_circ_preprocessing_v4.mod" type="model">
 			</ref>
             			
-            <ref name="circle_coverage_fast.dat" type="data">
+            <ref name="circle_coverage.dat" type="data">
 			</ref>
             		
         </config>
@@ -209,7 +209,7 @@
             <ref name="modelo_fix_circ_preprocessing_v5.mod" type="model">
 			</ref>
             			
-            <ref name="circle_coverage_fast.dat" type="data">
+            <ref name="circle_coverage.dat" type="data">
 			</ref>
             		
         </config>
@@ -219,7 +219,7 @@
             <ref name="modelo_fix_circ_preprocessing_v6.mod" type="model">
 			</ref>
             			
-            <ref name="circle_coverage_fast.dat" type="data">
+            <ref name="circle_coverage.dat" type="data">
 			</ref>
             		
         </config>
