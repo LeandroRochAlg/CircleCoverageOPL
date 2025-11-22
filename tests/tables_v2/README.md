@@ -17,4 +17,4 @@
     - NOT_OPTIMAL:
       - se tiver sem resultado rodou por todo o tempo (3600s) e não encontrou nenhuma solução
       - se tiver resultado rodou por todo o tempo e encontrou resultado, mas não é garantido que aquele resultado seja o melhor possível para aquele método
-    - TIMOUT: rodou por todo o tempo até a trava (3660s) e não encontrou nenhum resultado 
+    - TIMOUT: rodou por todo o tempo até a trava (3660s), encontrou resultado mas não tem visualização
