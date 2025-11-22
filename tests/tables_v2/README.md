@@ -1,0 +1,20 @@
+- instâncias testadas de 8, 16, 32, 64, 128, 256 clientes com k (minCoverage) = 1, 2 e 3 para cada número de clientes
+- results:
+  - instance_id: identificação da instância, nele contem o n e o k;
+  - config: configuração do opl utilizada (método):
+    - Teste1: CP puro
+    - Teste2: Heurística 3 + CP
+    - Teste3: Heurística 4 + CP
+    - Teste4: CP com pontos âncora e quebra entre
+    - Teste5: CP com pontos âncora e quebra intra
+    - Teste6: CP com pontos âncora e quebra entre + intra
+  - repeat: repetição (todos serão 1 repetição)
+  - numCirculos: número de círculos encontrados pelo método
+  - tempo: tempo de execução, Sem resultado quer dizer que rodou por 3600s e não encontrou nada
+  - visualization: a imagem gerada com a visualização do resultado em ../solutions/[visualizationID]/[visualization]
+  - status:
+    - SUCCESS: terminou a execução normalmente e encontrou o melhor resultado possível para aquele método
+    - NOT_OPTIMAL:
+      - se tiver sem resultado rodou por todo o tempo (3600s) e não encontrou nenhuma solução
+      - se tiver resultado rodou por todo o tempo e encontrou resultado, mas não é garantido que aquele resultado seja o melhor possível para aquele método
+    - TIMOUT: rodou por todo o tempo até a trava (3660s) e não encontrou nenhum resultado 
