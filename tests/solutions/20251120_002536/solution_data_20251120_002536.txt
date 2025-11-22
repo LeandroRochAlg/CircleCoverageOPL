@@ -1,0 +1,32 @@
+=== RESULTADOS DA SOLUÇÃO ===
+Timestamp: 20251120_002536
+Número de pontos: 8
+Número de círculos: 12
+Raio dos círculos: 30
+Cobertura mínima: 3
+Distância mínima entre círculos: 1.5
+Tempo de execução: 1.31 segundos
+
+=== PONTOS ===
+Ponto 1: (64.26, 47.01) - Cobertura: 3
+Ponto 2: (80.48, 12.11) - Cobertura: 3
+Ponto 3: (-9.22, 105.07) - Cobertura: 3
+Ponto 4: (-30.26, -102.44) - Cobertura: 3
+Ponto 5: (45.34, -18.54) - Cobertura: 3
+Ponto 6: (89.38, -20.88) - Cobertura: 3
+Ponto 7: (-9.61, -93.53) - Cobertura: 3
+Ponto 8: (49.57, -50.94) - Cobertura: 3
+
+=== CÍRCULOS ===
+Círculo 1: Centro (-21, 94)
+Círculo 2: Centro (-21, -95)
+Círculo 3: Centro (-21, 91)
+Círculo 4: Centro (-20, -86)
+Círculo 5: Centro (-19, 98)
+Círculo 6: Centro (-19, -91)
+Círculo 7: Centro (56, 20)
+Círculo 8: Centro (61, -27)
+Círculo 9: Centro (61, 24)
+Círculo 10: Centro (61, 32)
+Círculo 11: Centro (61, -30)
+Círculo 12: Centro (61, -24)

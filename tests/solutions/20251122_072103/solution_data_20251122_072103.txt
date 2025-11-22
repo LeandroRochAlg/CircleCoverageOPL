@@ -1,0 +1,8 @@
+=== RESULTADOS DA SOLUÇÃO ===
+Timestamp: 20251122_072103
+Número de pontos: 256
+Número de círculos: 52
+Raio dos círculos: 40
+Cobertura mínima: 3
+Distância mínima entre círculos: 1.5
+Tempo de execução: 3600.61 segundos

@@ -1,0 +1,35 @@
+=== RESULTADOS DA SOLUÇÃO ===
+Timestamp: 20251120_022733
+Número de pontos: 16
+Número de círculos: 7
+Raio dos círculos: 40
+Cobertura mínima: 1
+Distância mínima entre círculos: 1.5
+Tempo de execução: 0.09 segundos
+
+=== PONTOS ===
+Ponto 1: (-93.44, -102.89) - Cobertura: 1
+Ponto 2: (-88.86, -25.06) - Cobertura: 1
+Ponto 3: (27.34, -145) - Cobertura: 1
+Ponto 4: (-117.73, 4.56) - Cobertura: 1
+Ponto 5: (-48.32, 12.09) - Cobertura: 1
+Ponto 6: (-3.44, 71.02) - Cobertura: 1
+Ponto 7: (-132.44, -29.48) - Cobertura: 1
+Ponto 8: (-126.4, -62.14) - Cobertura: 2
+Ponto 9: (-38.49, 69.37) - Cobertura: 1
+Ponto 10: (0.75, 103.88) - Cobertura: 1
+Ponto 11: (-48.42, -12.07) - Cobertura: 1
+Ponto 12: (28.99, -115.03) - Cobertura: 1
+Ponto 13: (-14.43, -127.81) - Cobertura: 1
+Ponto 14: (10.91, 0.8) - Cobertura: 1
+Ponto 15: (-128.37, 61.81) - Cobertura: 1
+Ponto 16: (89.08, -52.62) - Cobertura: 1
+
+=== CÍRCULOS ===
+Círculo 1: Centro (-8, -130)
+Círculo 2: Centro (-91, -65)
+Círculo 3: Centro (50, -61)
+Círculo 4: Centro (-132, -69)
+Círculo 5: Centro (-29, -1)
+Círculo 6: Centro (-132, 22)
+Círculo 7: Centro (-2, 64)

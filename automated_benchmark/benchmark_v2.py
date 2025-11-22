@@ -22,7 +22,7 @@ OPTIMAL_TIME_LIMIT = 3600  # 1h - limite para considerar ótimo
 # Configurações fixas
 N_VALUES = [8, 16, 32, 64, 128, 256]  # Número de clientes
 K_VALUES = [1, 2, 3]  # Valores de minCoverage
-FIXED_RADIUS = 30
+FIXED_RADIUS = 40
 FIXED_MIN_DIST = 1.5
 
 REPEATS_PER_INSTANCE = 1

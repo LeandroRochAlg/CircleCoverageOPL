@@ -1,0 +1,65 @@
+=== RESULTADOS DA SOLUÇÃO ===
+Timestamp: 20251120_172912
+Número de pontos: 32
+Número de círculos: 21
+Raio dos círculos: 40
+Cobertura mínima: 3
+Distância mínima entre círculos: 1.5
+Tempo de execução: 3.19 segundos
+
+=== PONTOS ===
+Ponto 1: (-30.71, -36.22) - Cobertura: 4
+Ponto 2: (-90.34, -71.44) - Cobertura: 3
+Ponto 3: (-39.66, -6.71) - Cobertura: 3
+Ponto 4: (84.21, -85.84) - Cobertura: 3
+Ponto 5: (58.94, 36) - Cobertura: 3
+Ponto 6: (31.29, 28.33) - Cobertura: 3
+Ponto 7: (12.27, -27.32) - Cobertura: 4
+Ponto 8: (41.49, -15.4) - Cobertura: 3
+Ponto 9: (15.66, -42.98) - Cobertura: 4
+Ponto 10: (25.81, -8.28) - Cobertura: 5
+Ponto 11: (-68.32, 41.08) - Cobertura: 4
+Ponto 12: (-15.01, -58.87) - Cobertura: 3
+Ponto 13: (22.61, 115.44) - Cobertura: 3
+Ponto 14: (44.56, 129.13) - Cobertura: 3
+Ponto 15: (15.18, 113.26) - Cobertura: 3
+Ponto 16: (130.16, 39.42) - Cobertura: 3
+Ponto 17: (30.13, -58.65) - Cobertura: 4
+Ponto 18: (24.43, -95.69) - Cobertura: 3
+Ponto 19: (21.08, -94.86) - Cobertura: 3
+Ponto 20: (13.15, 0.46) - Cobertura: 5
+Ponto 21: (-21.2, -50.29) - Cobertura: 3
+Ponto 22: (68.12, -10.65) - Cobertura: 3
+Ponto 23: (-43.17, -9.21) - Cobertura: 3
+Ponto 24: (-83.55, 49.7) - Cobertura: 4
+Ponto 25: (31.17, 60.55) - Cobertura: 3
+Ponto 26: (-0.63, -36.32) - Cobertura: 3
+Ponto 27: (96.78, 73.41) - Cobertura: 3
+Ponto 28: (-22.39, 81.27) - Cobertura: 3
+Ponto 29: (61.45, 74.3) - Cobertura: 4
+Ponto 30: (58.09, 53.63) - Cobertura: 6
+Ponto 31: (-31.88, 7.61) - Cobertura: 3
+Ponto 32: (-6.79, -5.1) - Cobertura: 4
+
+=== CÍRCULOS ===
+Círculo 1: Centro (45, -93)
+Círculo 2: Centro (45, -91)
+Círculo 3: Centro (45, -89)
+Círculo 4: Centro (-70, -38)
+Círculo 5: Centro (-55, -59)
+Círculo 6: Centro (-54, -67)
+Círculo 7: Centro (29, -9)
+Círculo 8: Centro (30, -11)
+Círculo 9: Centro (31, -25)
+Círculo 10: Centro (-71, 12)
+Círculo 11: Centro (-6, 14)
+Círculo 12: Centro (-5, -21)
+Círculo 13: Centro (91, 34)
+Círculo 14: Centro (91, 36)
+Círculo 15: Centro (92, 49)
+Círculo 16: Centro (-62, 76)
+Círculo 17: Centro (-62, 78)
+Círculo 18: Centro (-62, 80)
+Círculo 19: Centro (42, 90)
+Círculo 20: Centro (44, 90)
+Círculo 21: Centro (46, 90)
