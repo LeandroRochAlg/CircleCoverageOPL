@@ -670,22 +670,25 @@ def generate_summary_statistics(data):
     """Gera estatísticas resumidas"""
     
     valid_circles = data[data['numCirculos_num'].notna()].copy()
-    valid_time = data[data['tempo_num'].notna()].copy()
+    
+    # Para tempo, considerar 3600s para execuções sem resultado
+    data_with_time = data.copy()
+    data_with_time['tempo_total'] = data_with_time['tempo_num'].fillna(3600)
     
     summary = []
     
     for method in METHOD_NAMES.values():
         method_circles = valid_circles[valid_circles['method'] == method]
-        method_time = valid_time[valid_time['method'] == method]
+        method_time = data_with_time[data_with_time['method'] == method]
         
         stats = {
             'Método': method,
             'Círculos Médio': method_circles['numCirculos_num'].mean(),
             'Círculos Mediano': method_circles['numCirculos_num'].median(),
             'Círculos Std': method_circles['numCirculos_num'].std(),
-            'Tempo Médio (s)': method_time['tempo_num'].mean(),
-            'Tempo Mediano (s)': method_time['tempo_num'].median(),
-            'Tempo Std (s)': method_time['tempo_num'].std(),
+            'Tempo Médio (s)': method_time['tempo_total'].mean(),
+            'Tempo Mediano (s)': method_time['tempo_total'].median(),
+            'Tempo Std (s)': method_time['tempo_total'].std(),
             'Taxa Sucesso (%)': (len(data[(data['method'] == method) & (data['status'] == 'SUCCESS')]) / 
                                  len(data[data['method'] == method]) * 100)
         }
