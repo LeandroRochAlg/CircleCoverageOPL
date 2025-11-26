@@ -594,7 +594,7 @@ def plot_gap_from_best(data):
     
     # Encontrar o gap máximo para definir altura das barras de "sem solução"
     max_gap = plot_data['gap'].max() if len(plot_data) > 0 else 10
-    no_solution_height = max_gap * 1.3  # 30% acima do máximo
+    no_solution_height = max_gap * 2.3  # 30% acima do máximo
     
     # Plot barras agrupadas para cada método
     legend_handles = []
@@ -631,7 +631,9 @@ def plot_gap_from_best(data):
                 hatches.append('')
         
         offset = (i - 2.5) * width
-        bars = ax.bar(x_positions + offset, y_values, width,
+        # Ajustar alturas para começar de -0.3 (para que o 0 seja visível)
+        heights = [y + 0.3 for y in y_values]
+        bars = ax.bar(x_positions + offset, heights, width, bottom=-0.3,
                       color=colors, alpha=0.8, edgecolor='black', linewidth=0.5)
         
         # Aplicar hachuras
@@ -658,6 +660,7 @@ def plot_gap_from_best(data):
                  fontweight='bold', pad=20, fontsize=12)
     ax.set_xticks(x_positions)
     ax.set_xticklabels(instances_order['instance_label'], rotation=45, ha='right', fontsize=9)
+    ax.set_ylim(bottom=-0.3)
     ax.grid(axis='y', alpha=0.3)
     
     plt.tight_layout()
